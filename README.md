@@ -39,6 +39,10 @@
 * [whatlanggo](https://github.com/abadojack/whatlanggo) golang 自然语言识别库，支持84种语言
 * [google/jsonapi](https://github.com/google/jsonapi) json http api 框架
 * [kavu/go_reuseport](https://github.com/kavu/go_reuseport) golang reuseport 支持
+* [uber-go/zap](https://github.com/uber-go/zap) with struct logger 支持hook等，性能较高
+* [go-playground/statics](https://github.com/go-playground/statics) golang http fs 通过web查看文件目录
+* [go-playground/pool](https://github.com/go-playground/pool) goroutine pool
+* [go-playground/spoon](https://github.com/go-playground/spoon) golang 进程热更新库，listener不间断
 
 ## network
 * [tlsrouter](https://github.com/google/tlsrouter) TLS SNI 代理程序。
@@ -89,6 +93,7 @@
 * [ovs](https://github.com/openvswitch/ovs) Open vSwitch
 * [ceph](https://github.com/ceph/ceph) 分布式文件系统
 * [google/trillian](https://github.com/google/trillian) Merkle tree 文件存储服务
+* [facebookarchive/scribe](https://github.com/facebookarchive/scribe) 日志传输聚合系统
 
 ## image
 * [guetzli](https://github.com/google/guetzli) JPEG 压缩库
@@ -97,7 +102,7 @@
 * [zopfli](https://github.com/google/zopfli)
 * [gipfeli](https://github.com/google/gipfeli)
 * [zstd](https://github.com/facebook/zstd)
+* [snappy](https://github.com/google/snappy)
 
 ## Book
-* [gotgit/gotgit] git book
-* [snappy](https://github.com/google/snappy)
+* [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
