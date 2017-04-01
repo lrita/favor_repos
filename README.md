@@ -43,6 +43,7 @@
 * [go-playground/statics](https://github.com/go-playground/statics) golang http fs 通过web查看文件目录
 * [go-playground/pool](https://github.com/go-playground/pool) goroutine pool
 * [go-playground/spoon](https://github.com/go-playground/spoon) golang 进程热更新库，listener不间断
+* [cenkalti/backoff](https://github.com/cenkalti/backoff) 提供几种 backoff 算法
 
 ## network
 * [tlsrouter](https://github.com/google/tlsrouter) TLS SNI 代理程序。
@@ -106,3 +107,4 @@
 
 ## Book
 * [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
+* [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 设计可扩展系统入门
