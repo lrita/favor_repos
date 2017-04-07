@@ -27,6 +27,7 @@
 * [01org/isa-l](https://github.com/01org/isa-l) Intel存储加速库，提供一些crc、压缩算法等
 * [01org/isa-l_crypto](https://github.com/01org/isa-l_crypto) Intel 加密算法加速库
 * [01org/intel-ipsec-mb](https://github.com/01org/intel-ipsec-mb) ipsec优化算法
+* [lpereira/gomoku](https://github.com/lpereira/gomoku) 将golang翻译成c++的工具
 
 ## Golang
 * [fchan-go](https://github.com/google/fchan-go) 实验性质的channel实现，比原生的更快
@@ -43,7 +44,11 @@
 * [go-playground/statics](https://github.com/go-playground/statics) golang http fs 通过web查看文件目录
 * [go-playground/pool](https://github.com/go-playground/pool) goroutine pool
 * [go-playground/spoon](https://github.com/go-playground/spoon) golang 进程热更新库，listener不间断
+* [go-playground/ansi](https://github.com/go-playground/ansi) shell文字颜色const
 * [cenkalti/backoff](https://github.com/cenkalti/backoff) 提供几种 backoff 算法
+* [kardianos/osext](https://github.com/kardianos/osext) 扩展OS包
+* [zxh0/jvm.go](https://github.com/zxh0/jvm.go) golang 实现的jvm，实验性质的。
+* [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) golang p2p lib
 
 ## network
 * [tlsrouter](https://github.com/google/tlsrouter) TLS SNI 代理程序。
@@ -51,6 +56,8 @@
 * [stenographer](https://github.com/google/stenographer) 网络故障分析工具，将机器流量存储于硬盘(高写入性能)，提供检索查询
 * [google/proto-quic](https://github.com/google/proto-quic) QUIC协议c/c++实现
 * [eunyoung14/mtcp](https://github.com/eunyoung14/mtcp) 用户态协议栈
+* [sumory/orange](https://github.com/sumory/orange) 基于OpenResty的监控、WAF
+* [medcl/gopa](https://github.com/medcl/gopa) golang 爬虫
 
 ## testing
 * [franela/goblin](https://github.com/franela/goblin) A BDD testing framework for golang
@@ -85,6 +92,7 @@
 * [google/badwolf](https://github.com/google/badwolf) 时序图存储抽象层
 * [scylladb/scylla](https://github.com/scylladb/scylla) 高性能列存储
 * [nim4/DBShield](https://github.com/nim4/DBShield) database firewall
+* [timescale/timescaledb](https://github.com/timescale/timescaledb) 一个时序数据库
 
 ## trace
 * [jaeger](https://github.com/uber/jaeger) 分布式追踪监控系统
@@ -108,3 +116,4 @@
 ## Book
 * [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
 * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 设计可扩展系统入门
+* [nonstriater/Learn-Algorithms](https://github.com/nonstriater/Learn-Algorithms) 算法学习
