@@ -28,6 +28,10 @@
 * [01org/isa-l_crypto](https://github.com/01org/isa-l_crypto) Intel 加密算法加速库
 * [01org/intel-ipsec-mb](https://github.com/01org/intel-ipsec-mb) ipsec优化算法
 * [lpereira/gomoku](https://github.com/lpereira/gomoku) 将golang翻译成c++的工具
+* [preshing/junction](https://github.com/preshing/junction) 并发数据结构
+* [H-EAL/oqpi](https://github.com/H-EAL/oqpi) c++14 多线程辅助类
+* [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) 无锁多线程malloc实现
+* [yuanzhubi/call_in_stack](https://github.com/yuanzhubi/call_in_stack) 以指定内存作为函数的栈空间来调用函数的hack
 
 ## Golang
 * [fchan-go](https://github.com/google/fchan-go) 实验性质的channel实现，比原生的更快
@@ -49,6 +53,8 @@
 * [kardianos/osext](https://github.com/kardianos/osext) 扩展OS包
 * [zxh0/jvm.go](https://github.com/zxh0/jvm.go) golang 实现的jvm，实验性质的。
 * [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) golang p2p lib
+* [millken/dpdk-go](https://github.com/millken/dpdk-go) cgo dpdk binding
+* [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) 文件系统通知
 
 ## network
 * [tlsrouter](https://github.com/google/tlsrouter) TLS SNI 代理程序。
@@ -117,3 +123,5 @@
 * [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
 * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 设计可扩展系统入门
 * [nonstriater/Learn-Algorithms](https://github.com/nonstriater/Learn-Algorithms) 算法学习
+* [opsnull/follow-me-install-kubernetes-cluster](https://github.com/opsnull/follow-me-install-kubernetes-cluster) 和我一步步部署 kubernetes 集群
+* [digoal/blog](https://github.com/digoal/blog) PostgreSQL相关资料
