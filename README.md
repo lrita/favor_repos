@@ -55,6 +55,11 @@
 * [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) golang p2p lib
 * [millken/dpdk-go](https://github.com/millken/dpdk-go) cgo dpdk binding
 * [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) 文件系统通知
+* [asaskevich/govalidator](https://github.com/asaskevich/govalidator) 检验数据有效性的库，采用struct注释来实现
+* [ponzu-cms/ponzu](https://github.com/ponzu-cms/ponzu) CMS 框架
+* [goruby/goruby](https://github.com/goruby/goruby) an implementation of Ruby written in Go
+* [derekparker/delve](https://github.com/derekparker/delve) golang debugger
+* [go-kit/kit](https://github.com/go-kit/kit) golang 微服务框架
 
 ## network
 * [tlsrouter](https://github.com/google/tlsrouter) TLS SNI 代理程序。
@@ -64,6 +69,8 @@
 * [eunyoung14/mtcp](https://github.com/eunyoung14/mtcp) 用户态协议栈
 * [sumory/orange](https://github.com/sumory/orange) 基于OpenResty的监控、WAF
 * [medcl/gopa](https://github.com/medcl/gopa) golang 爬虫
+* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) geo ip 库
+* [klaxa/mkvserver_mk2](https://github.com/klaxa/mkvserver_mk2) 流媒体服务器
 
 ## testing
 * [franela/goblin](https://github.com/franela/goblin) A BDD testing framework for golang
@@ -87,6 +94,8 @@
 * [vvo/gifify](https://github.com/vvo/gifify) 视频转为GIF图片的工具
 * [01org/numatop](https://github.com/01org/numatop) 内存等动态追踪
 * [01org/ioprof](https://github.com/01org/ioprof) IO porf脚本
+* [elliotchance/c2go](https://github.com/elliotchance/c2go) 将c代码翻译成go代码
+* [trailofbits/algo](https://github.com/trailofbits/algo) 在云端构建私有VPN
 
 ## file
 * [tail](https://github.com/hpcloud/tail) golang库，实现持续读取一个文件的功能，类似tail -f
@@ -124,4 +133,6 @@
 * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 设计可扩展系统入门
 * [nonstriater/Learn-Algorithms](https://github.com/nonstriater/Learn-Algorithms) 算法学习
 * [opsnull/follow-me-install-kubernetes-cluster](https://github.com/opsnull/follow-me-install-kubernetes-cluster) 和我一步步部署 kubernetes 集群
+* [Checkmarx/Go-SCP](https://github.com/Checkmarx/Go-SCP) golang 安全编码手册
 * [digoal/blog](https://github.com/digoal/blog) PostgreSQL相关资料
+* [wagamamaz/tensorflow-tutorial](https://github.com/wagamamaz/tensorflow-tutorial) tensorflow 教程
