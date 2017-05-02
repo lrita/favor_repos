@@ -60,6 +60,19 @@
 * [goruby/goruby](https://github.com/goruby/goruby) an implementation of Ruby written in Go
 * [derekparker/delve](https://github.com/derekparker/delve) golang debugger
 * [go-kit/kit](https://github.com/go-kit/kit) golang 微服务框架
+* [fardog/secureoperator](https://github.com/fardog/secureoperator) https dns
+* [campoy/jsonenums](https://github.com/campoy/jsonenums) 枚举类型的Json的(M|Unm)arshalJSON interface
+* [alecthomas/go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) golang序列化benchmark
+* [json-iterator/go](https://github.com/json-iterator/go) json iterator (decoder)
+* [buger/jsonparser](https://github.com/buger/jsonparser) json schema-less decoder
+* [mreiferson/go-ujson](https://github.com/mreiferson/go-ujson) json schema-less decoder
+* [a8m/djson](https://github.com/a8m/djson) json schema-less decoder
+* [Jeffail/gabs](https://github.com/Jeffail/gabs) json schema-less decoder
+* [tidwall/gjson](https://github.com/tidwall/gjson) json schema-less decoder/queryer
+* [hashicorp/go-rootcerts](https://github.com/hashicorp/go-rootcerts) http client 加载本地证书的库
+* [mitchellh/go-homedir](https://github.com/mitchellh/go-homedir) 获取进程当前目录的库，不适用cgo
+* [mitchellh/copystructure](https://github.com/mitchellh/copystructure) struct deep copy
+* [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure) 将一个`map[string]interface{}`类型数据赋值给一个指定类型struct的库
 
 ## network
 * [tlsrouter](https://github.com/google/tlsrouter) TLS SNI 代理程序。
@@ -96,6 +109,8 @@
 * [01org/ioprof](https://github.com/01org/ioprof) IO porf脚本
 * [elliotchance/c2go](https://github.com/elliotchance/c2go) 将c代码翻译成go代码
 * [trailofbits/algo](https://github.com/trailofbits/algo) 在云端构建私有VPN
+* [yhatt/marp](https://github.com/yhatt/marp) markdown 转 ppt 的工具
+* [gen2brain/url2img](https://github.com/gen2brain/url2img) 将url的页面转为图片的工具
 
 ## file
 * [tail](https://github.com/hpcloud/tail) golang库，实现持续读取一个文件的功能，类似tail -f
@@ -108,6 +123,7 @@
 * [scylladb/scylla](https://github.com/scylladb/scylla) 高性能列存储
 * [nim4/DBShield](https://github.com/nim4/DBShield) database firewall
 * [timescale/timescaledb](https://github.com/timescale/timescaledb) 一个时序数据库
+* [RedBeardLab/rediSQL](https://github.com/RedBeardLab/rediSQL) redis sql module
 
 ## trace
 * [jaeger](https://github.com/uber/jaeger) 分布式追踪监控系统
