@@ -44,12 +44,16 @@
 #### c-lib
 * [nothings/stb](https://github.com/nothings/stb) 一些只有头文件的库
 * [RandyGaul/tinyheaders](https://github.com/RandyGaul/tinyheaders) 一些只有头文件的库
+* [facebook/fatal](https://github.com/facebook/fatal) 包含大量模板元编程的库
 * [sailormoon/flags](https://github.com/sailormoon/flags) 只有头文件的flag解析库
 * [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) FFmpeg
+* [xtaci/algorithms](https://github.com/xtaci/algorithms) 一些算法和数据结构
 
 #### c-system
 * [libfuse/libfuse](https://github.com/libfuse/libfuse) Linux FUSE (Filesystem in Userspace) interface
 * [v8/v8](https://github.com/v8/v8) v8 engine
+* [openresty/openresty](https://github.com/openresty/openresty) openresty
+* [baidu/shuttle](https://github.com/baidu/shuttle) 百度的Map Reduce计算框架
 
 #### c-event-framework (asynchronous I/O)
 * [libuv/libuv](https://github.com/libuv/libuv)
@@ -72,11 +76,13 @@
 
 #### c-serialization
 * [miloyip/rapidjson](https://github.com/miloyip/rapidjson) A fast JSON parser/generator
+* [google/protobuf](https://github.com/google/protobuf) protobuf
+* [nanopb/nanopb](https://github.com/nanopb/nanopb) 纯C实现的protobuf
 
 ## Golang
-* [google/btree](https://github.com/google/btree) 内存中的btree数据结构实现
+* [avelino/awesome-go](https://github.com/avelino/awesome-go)
+* [hackstoic/golang-open-source-projects](https://github.com/hackstoic/golang-open-source-projects)
 * [google/go-querystring](https://github.com/google/go-querystring) golang lib url query 参数序列化库
-* [fatih/pool](https://github.com/fatih/pool)  golang 链接池
 * [couchbaselabs/vellum](https://github.com/couchbaselabs/vellum) golang 有限状态机(FSM)的实现
 * [smartystreets/mafsa](https://github.com/smartystreets/mafsa) golang 有限状态机(FSM)的实现
 * [nickng/dingo-hunter](https://github.com/nickng/dingo-hunter) golang 静态分析工具，检查死锁
@@ -128,12 +134,16 @@
 * [google/fchan-go](https://github.com/google/fchan-go) 实验性质的channel实现，比原生的更快
 * [google/grumpy](https://github.com/google/grumpy) Grumpy is a Python to Go source code transcompiler and runtime
 * [dominikh/go-staticcheck](https://github.com/dominikh/go-staticcheck) go 代码静态分析工具
+* [dop251/goja](https://github.com/dop251/goja) ECMAScript 5.1(+) implementation written in Go
+* [haya14busa/reviewdog](https://github.com/haya14busa/reviewdog) go 代码自动review CI工具
 
 #### go-algorithm
 * [go-hep/fit](https://github.com/go-hep/fit) 数据拟合
 * [blevesearch/bleve](https://github.com/blevesearch/bleve) 文字索引查询
 * [vladimirvivien/automi](https://github.com/vladimirvivien/automi) 流式处理逻辑框架
 * [ahmetb/go-linq](https://github.com/ahmetb/go-linq) LINQ-like query methods for Go 流式处理逻辑
+* [chrislusf/glow](https://github.com/chrislusf/glow) 流式处理框架 map/reduce
+* [stathat/consistent](https://github.com/stathat/consistent) 一致性hash
 
 #### go-image
 * [o1egl/govatar](https://github.com/o1egl/govatar) 头像生成库
@@ -141,8 +151,11 @@
 #### go-datastruct
 * [thoas/go-funk](https://github.com/thoas/go-funk) A modern Go utility library which provides helpers (map, find, contains, filter, ...)
 * [coocood/freecache](https://github.com/coocood/freecache) A cache library for Go with zero GC overhead
+* [Workiva/go-datastructures](https://github.com/Workiva/go-datastructures) 多种数据结构
+* [google/btree](https://github.com/google/btree) 内存中的btree数据结构实现
 
 #### go-network
+* [google/netstack](https://github.com/google/netstack) IPv4 and IPv6 userland network stack
 * [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) grpc-json api相互转化的网关
 * [pressly/chi](https://github.com/pressly/chi) http router framework
 * [vulcand/oxy](https://github.com/vulcand/oxy) http middleware (Ratelimit/Connlimit/Trace/Circuit Breaker)
@@ -153,19 +166,30 @@
 * [facebookgo/grace](https://github.com/facebookgo/grace) Graceful restart & zero downtime deploy for Go servers
 * [dghubble/gologin](https://github.com/dghubble/gologin) 提供多个知名网站的登录认证(OAuth1, OAuth2)
 * [RangelReale/osin](https://github.com/RangelReale/osin) Golang OAuth2 server library
+* [ory/hydra](https://github.com/ory/hydra) 提供OAuth2 and OpenID的server/client逻辑
 * [go-authboss/authboss](https://github.com/go-authboss/authboss) Authboss is a modular authentication system for the web
 * [tdewolff/minify](https://github.com/tdewolff/minify) 读取html/xml/css/js等根据配置，输出精简后的内容
 * [apcera/libretto](https://github.com/apcera/libretto) 对接各个云平台创建虚拟机的SDK
 * [jpillora/chisel](https://github.com/jpillora/chisel) A fast TCP tunnel over HTTP
+* [ipfs/go-ipfs](https://github.com/ipfs/go-ipfs) ipfs 实现，可以参考[IPFS：替代HTTP的分布式网络协议](http://www.infoq.com/cn/articles/ipfs)
 * [PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery) http client and brings a syntax and a set of features similar to jQuery to the Go language
 * [o3ma/o3](https://github.com/o3ma/o3) Open-source implementation of the Threema protocol in Go
 * [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道
 * [graphql-go/graphql](https://github.com/graphql-go/graphql) An implementation of GraphQL for Go / Golang
 * [AsynkronIT/protoactor-go](https://github.com/AsynkronIT/protoactor-go) 跨平台的actor模式实现
+* [fatih/pool](https://github.com/fatih/pool)  golang 链接池
+* [skywind3000/kcp](https://github.com/skywind3000/kcp) A Fast and Reliable ARQ Protocol
+* [xtaci/kcptun](https://github.com/xtaci/kcptun) kcp隧道
 
 #### go-driver
 * [upper/db](https://github.com/upper/db) 多种db driver
 * [Shopify/sarama](https://github.com/Shopify/sarama) kafka client
+* [fsouza/go-dockerclient](https://github.com/fsouza/go-dockerclient) docker client
+* [graymeta/stow](https://github.com/graymeta/stow) Cloud storage abstraction package for Go
+* [olivere/elastic](https://github.com/olivere/elastic) Elasticsearch client for Go
+* [go-xorm/xorm](https://github.com/go-xorm/xorm) Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle
+* [jinzhu/gorm](https://github.com/jinzhu/gorm) ORM library for Golang
+* [docker/libkv](https://github.com/docker/libkv) 对接多种分布式K-V存储的驱动
 
 #### go-service
 * [h2non/imaginary](https://github.com/h2non/imaginary) Fast HTTP microservice for high-level image processing
@@ -176,6 +200,14 @@
 * [go-gitea/gitea](https://github.com/go-gitea/gitea) git 服务
 * [Qihoo360/poseidon](https://github.com/Qihoo360/poseidon) 百亿级日志检索系统
 * [travisjeffery/jocko](https://github.com/travisjeffery/jocko) Kafka implemented in Golang with built-in coordination
+* [adohe/kube2haproxy](https://github.com/adohe/kube2haproxy) 部署在k8s上的流量发现代理
+* [caicloud/cyclone](https://github.com/caicloud/cyclone) A cloud native CI/CD platform built for container workflow
+* [TykTechnologies/tyk](https://github.com/TykTechnologies/tyk) Open Source API Gateway written in Go
+* [golang/groupcache](https://github.com/golang/groupcache) a caching and cache-filling library, intended as a replacement for memcached in many cases
+* [bmizerany/noeqd](https://github.com/bmizerany/noeqd) 容忍网络错误的发号器
+* [Netflix/chaosmonkey](https://github.com/Netflix/chaosmonkey) 测试分布式系统的辅助工具，制造错误情况
+* [mozilla-services/heka](https://github.com/mozilla-services/heka) 数据收集系统，支持嵌入lua脚本
+* [spf13/hugo](https://github.com/spf13/hugo) 静态网站生成工具,常用博客
 
 #### go-testing
 * [franela/goblin](https://github.com/franela/goblin) A BDD testing framework for golang
@@ -186,6 +218,7 @@
 * [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) sql mock package
 * [stretchr/testify](https://github.com/stretchr/testify) testing util
 * [coreos/gofail](https://github.com/coreos/gofail) 失败错误注入工具
+* [cweill/gotests](https://github.com/cweill/gotests) test case 生成工具
 
 #### go-cli
 * [https://github.com/dimiro1/banner](https://github.com/dimiro1/banner) 绘制命令行banner的库
@@ -200,6 +233,7 @@
 * [go-vgo/robotgo](https://github.com/go-vgo/robotgo) Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
 * [hpcloud/tail](https://github.com/hpcloud/tail) golang库，实现持续读取一个文件的功能，类似tail -f
 * [mholt/archiver](https://github.com/mholt/archiver) Easily create and extract .zip, .tar, .tar.gz, .tar.bz2, .tar.xz, .tar.lz4, .tar.sz, and .rar (extract-only) files with Go
+* [google/gops](https://github.com/google/gops) 识别机器上运行的go代码程序和版本
 
 #### go-config
 * [go-yaml/yaml](https://github.com/go-yaml/yaml) yaml
@@ -221,7 +255,14 @@
 * [tidwall/gjson](https://github.com/tidwall/gjson) json schema-less decoder/queryer
 * [pquerna/ffjson](https://github.com/pquerna/ffjson) json serialization (比easyjson慢很多，不推荐使用)
 * [mailru/easyjson](https://github.com/mailru/easyjson) json [en|de]coder 推荐使用
+* [ugorji/go](https://github.com/ugorji/go) 一个序列化库，包含json和其他的
 * [glycerine/zebrapack](https://github.com/glycerine/zebrapack) serialization in Go
+
+#### go-other
+* [pubnative/mysqlproto-go](https://github.com/pubnative/mysqlproto-go) go实现的mysql协议层
+* [robfig/cron](https://github.com/robfig/cron) cron library for go
+* [cstockton/go-conv](https://github.com/cstockton/go-conv) 增强strconv
+* [klauspost/reedsolomon](https://github.com/klauspost/reedsolomon) 所罗门编码
 
 ## Rust
 * [kud1ing/awesome-rust](https://github.com/kud1ing/awesome-rust)
@@ -238,6 +279,10 @@
 * [hyperium/hyper](https://github.com/hyperium/hyper) An HTTP library for Rust
 * [faern/rips](https://github.com/faern/rips) A userspace IP stack written in Rust
 * [carllerche/mio](https://github.com/carllerche/mio) Metal IO library for Rust
+* [stepancheg/grpc-rust](https://github.com/stepancheg/grpc-rust) grpc for rust
+
+#### rust-serialization
+* [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) rust-protobuf
 
 ## network
 * [facebook/mcrouter](https://github.com/facebook/mcrouter) c++ 实现的 memcached 的代理程序
@@ -261,7 +306,7 @@
 * [ntop/PF_RING](https://github.com/ntop/PF_RING) kernel module to capture network packet
 * [shiyanhui/dht](https://github.com/shiyanhui/dht) BitTorrent DHT Protocol && DHT Spider
 * [ccsexyz/kcpraw](https://github.com/ccsexyz/kcpraw) a secure tunnel based on kcp and rawcon with N:M multiplexing
-* [ipfs/go-ipfs](https://github.com/ipfs/go-ipfs) ipfs 实现，可以参考[IPFS：替代HTTP的分布式网络协议](http://www.infoq.com/cn/articles/ipfs)
+* [discourse/discourse](https://github.com/discourse/discourse) 一个BBS实现
 
 ## tool
 * [google/vim-codefmt](https://github.com/google/vim-codefmt) vim 脚本，提供多种源码格式化功能
@@ -299,6 +344,7 @@
 * [ttlequals0/autovpn](https://github.com/ttlequals0/autovpn) Create On Demand OpenVPN Endpoints on AWS
 * [NetEaseGame/git-webhook](https://github.com/NetEaseGame/git-webhook) 快速搭建git服务
 * [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 快捷安装zsh
+* [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) 各种等宽字体
 
 ## file
 * [watchman](https://github.com/facebook/watchman) 监控文件变化，可以根据条件触发动作
@@ -316,6 +362,7 @@
 * [jmhodges/levigo](https://github.com/jmhodges/levigo) leveldb golang binding
 * [pmwkaa/sophia](https://github.com/pmwkaa/sophia) c 实现的k-v村粗引擎
 * [google/badwolf](https://github.com/google/badwolf) 时序图存储抽象层
+* [pingcap/tikv](https://github.com/pingcap/tikv) 分布式k-v存储
 * [transceptor-technology/siridb-server](https://github.com/transceptor-technology/siridb-server) 高性能可扩展时序数据库
 * [scylladb/scylla](https://github.com/scylladb/scylla) 高性能列存储
 * [nim4/DBShield](https://github.com/nim4/DBShield) database firewall
@@ -332,19 +379,30 @@
 * [prometheus/prometheus](https://github.com/prometheus/prometheus) 监控系统，同时是一个时序数据库
 * [tidwall/tile38](https://github.com/tidwall/tile38) 空间地理信息维度的数据引擎
 * [rethinkdb/rethinkdb](https://github.com/rethinkdb/rethinkdb) The open-source database for the realtime web
+* [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) 分布式图数据库
+* [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) a distributed SQL database built on a transactional and strongly-consistent key-value store
+* [ha/doozerd](https://github.com/ha/doozerd) 分布式数据存储
+* [tidwall/summitdb](https://github.com/tidwall/summitdb) In-memory NoSQL database with ACID transactions, Raft consensus, and Redis API
 
 ## trace
 * [uber/jaeger](https://github.com/uber/jaeger) 分布式追踪监控系统
 * [openzipkin/zipkin-go-opentracing](https://github.com/openzipkin/zipkin-go-opentracing) OpenTracing Tracer implementation for Zipkin in Go
 * [openzipkin/zipkin](https://github.com/openzipkin/zipkin) zipkin
 * [iovisor/bcc](https://github.com/iovisor/bcc) 大神的各种动态追踪脚本
+* [brendangregg/perf-tools](https://github.com/brendangregg/perf-tools) 大神的pref脚本集
+* [openresty/openresty-systemtap-toolkit](https://github.com/openresty/openresty-systemtap-toolkit) 动态追踪工具集,不仅仅能用于nginx等
+
+## file system
+* [ceph/ceph](https://github.com/ceph/ceph) 分布式文件系统
+* [baidu/bfs](https://github.com/baidu/bfs) 百度的分布式文件系统
+* [rook/rook](https://github.com/rook/rook) Open, Cloud Native, and Universal Distributed Storage
 
 ## cloud/container
 * [fboss](https://github.com/facebook/fboss) Open Switching System
 * [openvswitch/ovs](https://github.com/openvswitch/ovs) Open vSwitch
 * [01org/dpdk-ovs](https://github.com/01org/dpdk-ovs) Intel dpdk openvswitch
+* [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) kubernetes
 * [01org/ciao](https://github.com/01org/ciao) 可控云/虚拟化编排工程
-* [ceph](https://github.com/ceph/ceph) 分布式文件系统
 * [google/trillian](https://github.com/google/trillian) Merkle tree 文件存储服务
 * [facebookarchive/scribe](https://github.com/facebookarchive/scribe) 日志传输聚合系统
 * [cilium/cilium](https://github.com/cilium/cilium) Linux的网络安全管理系统，采用eBPF，提供监控、审计等
@@ -359,7 +417,10 @@
 * [rootsongjc/kubernetes-handbook](https://github.com/rootsongjc/kubernetes-handbook) kubernetes handbook
 * [kubevirt/kubevirt](https://github.com/kubevirt/kubevirt)  a virtual machine management add-on for Kubernetes
 * [asobti/kube-monkey](https://github.com/asobti/kube-monkey) An implementation of Netflix's Chaos Monkey for Kubernetes clusters
+* [syncthing/syncthing](https://github.com/syncthing/syncthing) Open Source Continuous File Synchronization
 * [ncw/rclone](https://github.com/ncw/rclone) "rsync for cloud storage" - Google Drive, Amazon Drive, S3
+* [coreos/etcd-operator](https://github.com/coreos/etcd-operator) k8s上控制etcd的工具
+* [flynn/flynn](https://github.com/flynn/flynn) A next generation open source platform as a service (PaaS)
 
 ## image
 * [google/guetzli](https://github.com/google/guetzli) JPEG 压缩库
@@ -398,3 +459,4 @@
 * [sindresorhus/awesome](https://github.com/sindresorhus/awesome) 各种awesome的集合列表
 * [mre/awesome-static-analysis](https://github.com/mre/awesome-static-analysis) awesome-static-analysis
 * [Developer-Y/Scalable-Software-Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) Collection of tech talks, papers and web links on Distributed Systems, Scalability and System Design
+* [vhf/free-programming-books](https://github.com/vhf/free-programming-books) Freely available programming books
