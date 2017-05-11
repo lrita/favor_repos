@@ -61,6 +61,7 @@
 
 #### c-service
 * [firehol/netdata](https://github.com/firehol/netdata) 监控展示系统
+* [antirez/disque](https://github.com/antirez/disque) Disque is a distributed message broker
 
 #### c-testing
 * [google/googletest](https://github.com/google/googletest) Google Test framework，包含下面2个
@@ -105,7 +106,6 @@
 * [libeclipse/memguard](https://github.com/libeclipse/memguard) 内存保护、防篡改
 * [adamzy/cedar-go](https://github.com/adamzy/cedar-go) A go implemention of efficiently-updatable double-array trie
 * [bjwbell/gensimd](https://github.com/bjwbell/gensimd) simd/sse2相关go代码生成工具
-* [ahmetb/go-linq](https://github.com/ahmetb/go-linq) LINQ-like query methods for Go
 * [cloudflare/ahocorasick](https://github.com/cloudflare/ahocorasick) Aho-Corasick ac自动机字符串匹配
 * [funny/slab](https://github.com/funny/slab) Slab allocation memory pools for Go
 * [antage/ragel-go](https://github.com/antage/ragel-go) 将自动状态机转成go代码的工具
@@ -127,19 +127,28 @@
 * [alecthomas/gometalinter](https://github.com/alecthomas/gometalinter) 并行跑多种分析工具
 * [google/fchan-go](https://github.com/google/fchan-go) 实验性质的channel实现，比原生的更快
 * [google/grumpy](https://github.com/google/grumpy) Grumpy is a Python to Go source code transcompiler and runtime
+* [dominikh/go-staticcheck](https://github.com/dominikh/go-staticcheck) go 代码静态分析工具
 
-#### go-math
+#### go-algorithm
 * [go-hep/fit](https://github.com/go-hep/fit) 数据拟合
+* [blevesearch/bleve](https://github.com/blevesearch/bleve) 文字索引查询
+* [vladimirvivien/automi](https://github.com/vladimirvivien/automi) 流式处理逻辑框架
+* [ahmetb/go-linq](https://github.com/ahmetb/go-linq) LINQ-like query methods for Go 流式处理逻辑
 
 #### go-image
 * [o1egl/govatar](https://github.com/o1egl/govatar) 头像生成库
 
 #### go-datastruct
 * [thoas/go-funk](https://github.com/thoas/go-funk) A modern Go utility library which provides helpers (map, find, contains, filter, ...)
+* [coocood/freecache](https://github.com/coocood/freecache) A cache library for Go with zero GC overhead
 
 #### go-network
 * [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) grpc-json api相互转化的网关
+* [pressly/chi](https://github.com/pressly/chi) http router framework
+* [vulcand/oxy](https://github.com/vulcand/oxy) http middleware (Ratelimit/Connlimit/Trace/Circuit Breaker)
 * [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) golang p2p lib
+* [devsisters/goquic](https://github.com/devsisters/goquic) QUIC protocol support for Go (有一年没更新了)
+* [lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go) QUIC implementation in pure go
 * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) go mysql driver
 * [facebookgo/grace](https://github.com/facebookgo/grace) Graceful restart & zero downtime deploy for Go servers
 * [dghubble/gologin](https://github.com/dghubble/gologin) 提供多个知名网站的登录认证(OAuth1, OAuth2)
@@ -152,6 +161,7 @@
 * [o3ma/o3](https://github.com/o3ma/o3) Open-source implementation of the Threema protocol in Go
 * [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道
 * [graphql-go/graphql](https://github.com/graphql-go/graphql) An implementation of GraphQL for Go / Golang
+* [AsynkronIT/protoactor-go](https://github.com/AsynkronIT/protoactor-go) 跨平台的actor模式实现
 
 #### go-driver
 * [upper/db](https://github.com/upper/db) 多种db driver
@@ -165,6 +175,7 @@
 * [eleme/banshee](https://github.com/eleme/banshee) 监控、异常检测报警系统
 * [go-gitea/gitea](https://github.com/go-gitea/gitea) git 服务
 * [Qihoo360/poseidon](https://github.com/Qihoo360/poseidon) 百亿级日志检索系统
+* [travisjeffery/jocko](https://github.com/travisjeffery/jocko) Kafka implemented in Golang with built-in coordination
 
 #### go-testing
 * [franela/goblin](https://github.com/franela/goblin) A BDD testing framework for golang
@@ -188,9 +199,11 @@
 #### go-system
 * [go-vgo/robotgo](https://github.com/go-vgo/robotgo) Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
 * [hpcloud/tail](https://github.com/hpcloud/tail) golang库，实现持续读取一个文件的功能，类似tail -f
+* [mholt/archiver](https://github.com/mholt/archiver) Easily create and extract .zip, .tar, .tar.gz, .tar.bz2, .tar.xz, .tar.lz4, .tar.sz, and .rar (extract-only) files with Go
 
 #### go-config
 * [go-yaml/yaml](https://github.com/go-yaml/yaml) yaml
+* [gorhill/cronexpr](https://github.com/gorhill/cronexpr) crontab 表达式解析
 
 #### go-validation
 * [go-ozzo/ozzo-validation](https://github.com/go-ozzo/ozzo-validation) data validation with configurable and extensible validation rules
@@ -211,13 +224,20 @@
 * [glycerine/zebrapack](https://github.com/glycerine/zebrapack) serialization in Go
 
 ## Rust
+* [kud1ing/awesome-rust](https://github.com/kud1ing/awesome-rust)
 
 #### rust-code
+* [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example) Learn Rust with examples
 * [jameysharp/corrode](https://github.com/jameysharp/corrode) C to Rust translator
+* [phildawes/racer](https://github.com/phildawes/racer) Rust Code Completion utility
 
 #### rust-network
 * [iron/iron](https://github.com/iron/iron) An Extensible, Concurrent Web Framework for Rust
 * [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket) A web framework for Rust
+* [lambdastackio/tokio-http2](https://github.com/lambdastackio/tokio-http2) HTTP/2 Rust library
+* [hyperium/hyper](https://github.com/hyperium/hyper) An HTTP library for Rust
+* [faern/rips](https://github.com/faern/rips) A userspace IP stack written in Rust
+* [carllerche/mio](https://github.com/carllerche/mio) Metal IO library for Rust
 
 ## network
 * [facebook/mcrouter](https://github.com/facebook/mcrouter) c++ 实现的 memcached 的代理程序
@@ -278,6 +298,7 @@
 * [google/codesearch](https://github.com/google/codesearch) go实现的代码搜索工具
 * [ttlequals0/autovpn](https://github.com/ttlequals0/autovpn) Create On Demand OpenVPN Endpoints on AWS
 * [NetEaseGame/git-webhook](https://github.com/NetEaseGame/git-webhook) 快速搭建git服务
+* [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 快捷安装zsh
 
 ## file
 * [watchman](https://github.com/facebook/watchman) 监控文件变化，可以根据条件触发动作
@@ -316,6 +337,7 @@
 * [uber/jaeger](https://github.com/uber/jaeger) 分布式追踪监控系统
 * [openzipkin/zipkin-go-opentracing](https://github.com/openzipkin/zipkin-go-opentracing) OpenTracing Tracer implementation for Zipkin in Go
 * [openzipkin/zipkin](https://github.com/openzipkin/zipkin) zipkin
+* [iovisor/bcc](https://github.com/iovisor/bcc) 大神的各种动态追踪脚本
 
 ## cloud/container
 * [fboss](https://github.com/facebook/fboss) Open Switching System
@@ -334,8 +356,10 @@
 * [nats-io/gnatsd](https://github.com/nats-io/gnatsd) High-Performance server for NATS, the cloud native messaging system
 * [jpetazzo/pipework](https://github.com/jpetazzo/pipework) Software-Defined Networking for Linux Containers
 * [coreos/flannel](https://github.com/coreos/flannel) go实现的k8s虚拟网络
+* [rootsongjc/kubernetes-handbook](https://github.com/rootsongjc/kubernetes-handbook) kubernetes handbook
 * [kubevirt/kubevirt](https://github.com/kubevirt/kubevirt)  a virtual machine management add-on for Kubernetes
 * [asobti/kube-monkey](https://github.com/asobti/kube-monkey) An implementation of Netflix's Chaos Monkey for Kubernetes clusters
+* [ncw/rclone](https://github.com/ncw/rclone) "rsync for cloud storage" - Google Drive, Amazon Drive, S3
 
 ## image
 * [google/guetzli](https://github.com/google/guetzli) JPEG 压缩库
@@ -373,3 +397,4 @@
 * [maemual/raft-zh_cn](https://github.com/maemual/raft-zh_cn) Raft一致性算法论文的中文翻译
 * [sindresorhus/awesome](https://github.com/sindresorhus/awesome) 各种awesome的集合列表
 * [mre/awesome-static-analysis](https://github.com/mre/awesome-static-analysis) awesome-static-analysis
+* [Developer-Y/Scalable-Software-Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) Collection of tech talks, papers and web links on Distributed Systems, Scalability and System Design
