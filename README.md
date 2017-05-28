@@ -64,6 +64,7 @@
 * [Tencent/libco](https://github.com/Tencent/libco) coroutine library
 * [yyzybb537/libgo](https://github.com/yyzybb537/libgo) libgo - 协程库、并行编程库
 * [scylladb/seastar](https://github.com/scylladb/seastar) c++14 高性能时间框架、用户态协议栈、任务调用
+* [F-Stack/f-stack](https://github.com/F-Stack/f-stack) 用户态协议栈+协程
 
 #### c-network
 * [uWebSockets/uWebSockets](https://github.com/uWebSockets/uWebSockets) Tiny WebSockets
@@ -152,6 +153,7 @@
 * [msoap/go-carpet](https://github.com/msoap/go-carpet) 显示代码测试覆盖率的工具
 * [goccmack/gocc](https://github.com/goccmack/gocc) golang 解析代码生成器，通过BNF来生成解析语法
 * [bjwbell/gensimd](https://github.com/bjwbell/gensimd) simd/sse2相关go代码生成工具
+* [minio/c2goasm](https://github.com/minio/c2goasm) C to Go Assembly
 
 #### go-algorithm
 * [go-hep/fit](https://github.com/go-hep/fit) 数据拟合
@@ -222,6 +224,8 @@
 * [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) A high performance HTTP request router
 * [PuerkitoBio/rehttp](https://github.com/PuerkitoBio/rehttp) 实现了`http.RoundTripper`,支持重试等
 * [google/go-querystring](https://github.com/google/go-querystring) golang lib url query 参数序列化库
+* [coreos/zetcd](https://github.com/coreos/zetcd) zookeeper to etcd 转换的proxy
+* [tidwall/redcon](https://github.com/tidwall/redcon) Redis compatible server framework for Go
 
 #### go-driver
 * [upper/db](https://github.com/upper/db) 多种db driver
@@ -285,6 +289,7 @@
 * [stretchr/testify](https://github.com/stretchr/testify) testing util
 * [coreos/gofail](https://github.com/coreos/gofail) 失败错误注入工具
 * [cweill/gotests](https://github.com/cweill/gotests) test case 生成工具
+* [mwitkow/go-conntrack](https://github.com/mwitkow/go-conntrack) Go middleware for net.Conn tracking
 
 #### go-cli
 * [dimiro1/banner](https://github.com/dimiro1/banner) 绘制命令行banner的库
@@ -307,6 +312,7 @@
 * [rainycape/dl](https://github.com/rainycape/dl) (go1.8已经支持插件功能，但是其中一些反射绑定、汇编值得参考)Runtime dynamic library loader (dlopen / dlsym) for go
 * [cookieo9/goffi](https://github.com/cookieo9/goffi) golang ffi
 * [uber-common/cpustat](https://github.com/uber-common/cpustat) 系统数据采集工具(监控)
+* [spf13/afero](https://github.com/spf13/afero) A FileSystem Abstraction System for Go
 
 #### go-config
 * [go-yaml/yaml](https://github.com/go-yaml/yaml) yaml
@@ -331,6 +337,14 @@
 * [ugorji/go](https://github.com/ugorji/go) 一个序列化库，包含json和其他的
 * [glycerine/zebrapack](https://github.com/glycerine/zebrapack) serialization in Go
 
+#### go-database
+* [tidwall/buntdb](https://github.com/tidwall/buntdb) an embeddable, in-memory key/value database with
+custom indexing and geospatial support. 支持事务、自定义索引、TTL。通过redis-aof文件来实现持久化。代码
+比较精简，一共2000行。
+* [boltdb/bolt](https://github.com/boltdb/bolt) An embedded key/value database. 采用B-TREE文件页索引实现
+K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应的文件页，因此不需要binlog。采用mmap将文件映射
+到内存空间，提供随机读取。
+
 #### go-other
 * [pubnative/mysqlproto-go](https://github.com/pubnative/mysqlproto-go) go实现的mysql协议层
 * [robfig/cron](https://github.com/robfig/cron) cron library for go
@@ -340,6 +354,8 @@
 * [juju/errors](https://github.com/juju/errors) 增加errors，内置很多常见错误
 * [klauspost/reedsolomon](https://github.com/klauspost/reedsolomon) 所罗门编码
 * [funny/slab](https://github.com/funny/slab) Slab allocation memory pools for Go
+* [google/goexpect](https://github.com/google/goexpect) golang 实现的shell expect命令
+* [dchest/captcha](https://github.com/dchest/captcha) 生成图片、声音类型的验证码
 
 ## Rust
 * [kud1ing/awesome-rust](https://github.com/kud1ing/awesome-rust)
@@ -438,7 +454,9 @@
 * [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) 各种等宽字体
 * [Moeditor/Moeditor](https://github.com/Moeditor/Moeditor) markdown 编辑器
 * [yhatt/marp](https://github.com/yhatt/marp) markdown生成ppt的工具
-* [https://github.com/so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) git diff 插件，优化显示
+* [so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) git diff 插件，优化显示
+* [facebook/augmented-traffic-control](https://github.com/facebook/augmented-traffic-control) 将linux tc进行封装，达到服务化、简化操作
+* [unbug/codelf](https://github.com/unbug/codelf) 代码变量命名搜索
 
 ## file
 * [watchman](https://github.com/facebook/watchman) 监控文件变化，可以根据条件触发动作
@@ -454,8 +472,6 @@
 ## database
 * [pmwkaa/ioarena](https://github.com/pmwkaa/ioarena) 各种存储引擎的benchmark
 * [rqlite/rqlite](https://github.com/rqlite/rqlite) The lightweight, distributed relational database built on SQLite
-* [boltdb/bolt](https://github.com/boltdb/bolt) An embedded key/value database for Go
-* [tidwall/buntdb](https://github.com/tidwall/buntdb) an embeddable, in-memory key/value database for Go with custom indexing and geospatial support
 * [dgraph-io/badger](https://github.com/dgraph-io/badger) An embeddable, persistent, simple and fast key-value (KV) store, written natively in Go
 * [cznic/ql](https://github.com/cznic/ql) ql is a pure Go embedded SQL database
 * [hashicorp/go-memdb](https://github.com/hashicorp/go-memdb) Golang in-memory database built on immutable radix trees
@@ -464,6 +480,7 @@
 * [weicao/cascadb](https://github.com/weicao/cascadb) 存储引擎，嵌入存储。
 * [google/leveldb](https://github.com/google/leveldb) leveldb
 * [basho/leveldb](https://github.com/basho/leveldb) 修改版的leveldb
+* [rescrv/HyperLevelDB](https://github.com/rescrv/HyperLevelDB) A fork of LevelDB intended to meet the needs of HyperDex while remaining compatible with LevelDB.
 * [jmhodges/levigo](https://github.com/jmhodges/levigo) leveldb golang binding
 * [pmwkaa/sophia](https://github.com/pmwkaa/sophia) c 实现的k-v村粗引擎
 * [google/badwolf](https://github.com/google/badwolf) 时序图存储抽象层
@@ -501,6 +518,8 @@
 * [yinqiwen/ardb](https://github.com/yinqiwen/ardb) 兼容redis协议可以对接多种持久化db的nosql
 * [sohutv/cachecloud](https://github.com/sohutv/cachecloud) 搜狐视频(sohu tv)Redis私有云平台
 * [alibaba/tair](https://github.com/alibaba/tair) A distributed key-value storage system
+* [bloomberg/comdb2](https://github.com/bloomberg/comdb2) Bloomberg's distributed RDBMS
+* [m3db/m3db](https://github.com/m3db/m3db) A distributed time series database using M3TSZ compression
 
 ## trace
 * [uber/jaeger](https://github.com/uber/jaeger) 分布式追踪监控系统
@@ -517,6 +536,7 @@
 * [rook/rook](https://github.com/rook/rook) Open, Cloud Native, and Universal Distributed Storage
 * [minio/minio](https://github.com/minio/minio) Minio is an open source object storage server compatible with Amazon S3 APIs
 * [alibaba/tfs](https://github.com/alibaba/tfs) a distributed file system developed by Taobao.com
+* [redox-os/tfs](https://github.com/redox-os/tfs) Next Generation File System in rust
 
 ## cloud/container
 * [moby/moby](https://github.com/moby/moby) docker项目改版后重新定位的产品
@@ -591,6 +611,7 @@
 * [julycoding/The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July) 《编程之法：面试和算法心得》
 * [darcyliu/google-styleguide](https://github.com/darcyliu/google-styleguide) google 代码更改指南
 * [wnzhang/rtb-papers](https://github.com/wnzhang/rtb-papers) RTB(广告实时交易)论文
+* [drunkard/ceph-Chinese-doc](https://github.com/drunkard/ceph-Chinese-doc) ceph 中文文档
 
 #### awesome-xxx
 * [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices)
