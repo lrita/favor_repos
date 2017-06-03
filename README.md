@@ -344,6 +344,8 @@ custom indexing and geospatial support. 支持事务、自定义索引、TTL。�
 * [boltdb/bolt](https://github.com/boltdb/bolt) An embedded key/value database. 采用B-TREE文件页索引实现
 K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应的文件页，因此不需要binlog。采用mmap将文件映射
 到内存空间，提供随机读取。
+* [hashicorp/go-memdb](https://github.com/hashicorp/go-memdb) in-memory database built on immutable radix trees
+* [golang/leveldb](https://github.com/golang/leveldb) golang 实现的leveldb，未完工，停滞状态
 
 #### go-other
 * [pubnative/mysqlproto-go](https://github.com/pubnative/mysqlproto-go) go实现的mysql协议层
@@ -474,8 +476,6 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [rqlite/rqlite](https://github.com/rqlite/rqlite) The lightweight, distributed relational database built on SQLite
 * [dgraph-io/badger](https://github.com/dgraph-io/badger) An embeddable, persistent, simple and fast key-value (KV) store, written natively in Go
 * [cznic/ql](https://github.com/cznic/ql) ql is a pure Go embedded SQL database
-* [hashicorp/go-memdb](https://github.com/hashicorp/go-memdb) Golang in-memory database built on immutable radix trees
-* [golang/leveldb](https://github.com/golang/leveldb) golang 实现的leveldb，未完工，停滞状态
 * [facebook/rocksdb](https://github.com/facebook/rocksdb) c++ 实现的嵌入式k-v数据库
 * [weicao/cascadb](https://github.com/weicao/cascadb) 存储引擎，嵌入存储。
 * [google/leveldb](https://github.com/google/leveldb) leveldb
