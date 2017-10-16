@@ -265,7 +265,6 @@
 
 #### go-datastruct
 * [thoas/go-funk](https://github.com/thoas/go-funk) A modern Go utility library which provides helpers (map, find, contains, filter, ...)
-* [coocood/freecache](https://github.com/coocood/freecache) A cache library for Go with zero GC overhead
 * [Workiva/go-datastructures](https://github.com/Workiva/go-datastructures) 多种数据结构
 * [emirpasic/gods](https://github.com/emirpasic/gods) 多种数据结构
 * [fatih/set](https://github.com/fatih/set) 集合运算库，子集、差集等运算
@@ -495,8 +494,9 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [influxdata/influxdb](https://github.com/influxdata/influxdb) 时序数据库，常用来存储监控信息
 * [coreos/torus](https://github.com/coreos/torus) distributed storage coordinated through etcd
 * [HouzuoGuo/tiedot](https://github.com/HouzuoGuo/tiedot) 一个文档型数据库
-* [couchbase/moss](https://github.com/couchbase/moss) a simple, fast, ordered, persistable, key-val storage
+* [couchbase/moss](https://github.com/couchbase/moss) a simple, fast, ordered, persistable, key-val storage, 不怎么推荐
 * [allegro/bigcache](https://github.com/allegro/bigcache) Efficient cache for gigabytes of data written in Go
+* [coocood/freecache](https://github.com/coocood/freecache) A cache library for Go with zero GC overhead
 * [hashicorp/consul](https://github.com/hashicorp/consul) consul
 * [cznic/db](https://github.com/cznic/db) implements some data structures found in database implementations. (Work in Progress)
 
