@@ -39,6 +39,8 @@
 * [https://github.com/cquery-project/cquery](https://github.com/cquery-project/cquery) C++编辑器插件
 
 #### c-code
+* [AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) 现代CPP特征
+* [isocpp/CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines) C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
 * [bazelbuild/bazel](https://github.com/bazelbuild/bazel) google 工程构建工具(比makefile优化很多)
 * [pfultz2/Linq](https://github.com/pfultz2/Linq) c++ Linq library
 * [danmar/cppcheck](https://github.com/danmar/cppcheck) cpp 静态分析工具
@@ -47,6 +49,7 @@
 * [Tencent/TscanCode](https://github.com/Tencent/TscanCode) A static code analyzer for C++, C#, Lua
 * [namhyung/uftrace](https://github.com/namhyung/uftrace) The uftrace tool is to trace and analyze execution of a program written in C/C++
 * [google/wuffs](https://github.com/google/wuffs) 代码生成工具：编写解析格式，自动生成安装的解析代码，用以解析不安全的输入文件
+* [cesanta/mjs](https://github.com/cesanta/mjs) JavaScript 引擎
 
 #### c-algorithm
 * [ridiculousfish/libdivide](https://github.com/ridiculousfish/libdivide) (C) 高效除法库
@@ -82,6 +85,8 @@
 * [tudordavid/libslock](https://github.com/tudordavid/libslock) Cross-platform atomic operations and lock algorithm library
 * [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) Abseil Common Libraries (C++)
 * [boostorg/container](https://github.com/boostorg/container) STL-like containers from Boost
+* [cesanta/slre](https://github.com/cesanta/slre) 超轻量级的正则表达式库
+* [concurrencykit/ck](https://github.com/concurrencykit/ck) 并发库，提供一些并发原语和数据结构
 
 #### c-log
 * [gabime/spdlog](https://github.com/gabime/spdlog) Super fast C++ logging library.
@@ -104,6 +109,8 @@
 * [efficient/nvram](https://github.com/efficient/nvram) Tools for safe management of persistent main memory.
 * [trigonak/ssmp](https://github.com/trigonak/ssmp) ssmp is a highly optimized message passing library built on top of the cache-coherence protocols of shared memory processors
 * [cloudwu/buddy](https://github.com/cloudwu/buddy) Buddy memory allocation
+* [pmem/pmdk](https://github.com/pmem/pmdk) 持久化内存管理库
+* [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) C语言的智能指针
 
 #### c-event-framework (asynchronous I/O)
 * [libuv/libuv](https://github.com/libuv/libuv)
@@ -184,6 +191,7 @@
 * [cloudflare/kyototycoon](https://github.com/cloudflare/kyototycoon) a handy cache/storage server
 * [hypertable/hypertable](https://github.com/hypertable/hypertable) A flexible database focused on performance and scalability
 * [MonetDB/MonetDB](https://github.com/MonetDB/MonetDB) a high-performance database kernel for query-intensive applications.
+* [pmem/pmemkv](https://github.com/pmem/pmemkv) (CPP) 依赖持久化内存实现的KV存储
 
 #### c-database-driver
 * [qicosmos/ormpp](https://github.com/qicosmos/ormpp) cpp db orm 支持mysql
@@ -260,6 +268,8 @@
 * [jingweno/godzilla](https://github.com/jingweno/godzilla) ES2015代码到go的翻译和运行时
 * [glycerine/zygomys](https://github.com/glycerine/zygomys) go实现的类似Lisp的脚本语言
 * [milochristiansen/lua](https://github.com/milochristiansen/lua) A Lua 5.3 VM and compiler written in Go.
+* [Shopify/go-lua](https://github.com/Shopify/go-lua) lua 引擎/虚拟机
+* [go-interpreter/wagon](https://github.com/go-interpreter/wagon) a WebAssembly-based Go interpreter, for Go.
 * [rhysd/gocaml](https://github.com/rhysd/gocaml) GoCaml is subset of OCaml in Go based on MinCaml using LLVM.
 * [cznic/99c](https://github.com/cznic/99c) Command 99c is a c99 compiler targeting a virtual machine.
 * [knq/xo](https://github.com/knq/xo) 根据database schema生成go代码的工具
@@ -268,6 +278,9 @@
 * [msoap/go-carpet](https://github.com/msoap/go-carpet) 显示代码测试覆盖率的工具
 * [goccmack/gocc](https://github.com/goccmack/gocc) golang 解析代码生成器，通过BNF来生成解析语法
 * [bjwbell/gensimd](https://github.com/bjwbell/gensimd) simd/sse2相关go代码生成工具
+* [fwessels/go-cv-simd](https://github.com/fwessels/go-cv-simd) low-level Go Assembly part of the go-cv wrapper around Simd
+* [yesuu/simd](https://github.com/yesuu/simd) SIMD for Golang
+* [minio/asm2plan9s](https://github.com/minio/asm2plan9s) 将GNU汇编转换为plan9汇编
 * [minio/c2goasm](https://github.com/minio/c2goasm) C to Go Assembly
 * [client9/misspell](https://github.com/client9/misspell) 分析代码，检查拼写错误。
 * [campoy/embedmd](https://github.com/campoy/embedmd) 分析代码，将注释等信息生成markdown文档
@@ -281,12 +294,15 @@
 * [jteeuwen/go-bindata](https://github.com/jteeuwen/go-bindata) 将文件嵌入代码的代码生成器
 * [petermattis/fastcgo](https://github.com/petermattis/fastcgo) Fast (but unsafe) Cgo calls via an assembly trampoline
 * [grofers/go-codon](https://github.com/grofers/go-codon) Workflow based REST framework code generator
+* [fatih/structtag](https://github.com/fatih/structtag) struct tag解析方法
+* [bouk/monkey](https://github.com/bouk/monkey) GO动态补丁实现
 
 ##### go-code-tool
 * [mvdan/gogrep](https://github.com/mvdan/gogrep) Search for Go code using syntax trees.
 * [karalabe/xgo](https://github.com/karalabe/xgo) 交叉编译工具，一次性编译出各个平台的版本
 * [mitchellh/gox](https://github.com/mitchellh/gox) Go cross compile tool
 * [mvdan/goreduce](https://github.com/mvdan/goreduce) go 代码简化工具
+* [klauspost/asmfmt](https://github.com/klauspost/asmfmt) go汇编格式化工具
 * [alexkohler/prealloc](https://github.com/alexkohler/prealloc) go代码静态分析工具，发现那些slice/map可以预先分配大小
 * [d4l3k/go-pry](https://github.com/d4l3k/go-pry) go 解释器
 * [m-zajac/json2go](https://github.com/m-zajac/json2go) 根据输入的json生成go struct结构
@@ -302,10 +318,12 @@
 * [vladimirvivien/automi](https://github.com/vladimirvivien/automi) 流式处理逻辑框架
 * [ahmetb/go-linq](https://github.com/ahmetb/go-linq) LINQ-like query methods for Go 流式处理逻辑
 * [chrislusf/glow](https://github.com/chrislusf/glow) 流式处理框架 map/reduce
+* [tidwall/murmur3](https://github.com/tidwall/murmur3) Murmur3 hash in Go
+* [tidwall/algo](https://github.com/tidwall/algo) go runtime的hash算法
 * [stathat/consistent](https://github.com/stathat/consistent) 一致性hash
 * [eapache/go-resiliency](https://github.com/eapache/go-resiliency) 提供一些通讯中弹性容错的实现(breaker/deadline/semaphore)
 * [hashicorp/raft](https://github.com/hashicorp/raft) consul的raft算法实现
-* [wpaxos/paxi](https://github.com/wpaxos/paxi) WPaxos is a multileader Paxos protocol that provides low-latency and high-throughput consensus across wide-area network (WAN) deployments.
+* [ailidani/paxi](https://github.com/ailidani/paxi) PAXOS协议框架
 * [seiflotfy/hyperbitbit](https://github.com/seiflotfy/hyperbitbit) 基数估计算法
 * [armon/go-chord](https://github.com/armon/go-chord) p2p hash 查找算法
 * [couchbaselabs/vellum](https://github.com/couchbaselabs/vellum) golang 有限状态机(FSM)的实现
@@ -322,9 +340,13 @@
 * [tmthrgd/go-memset](https://github.com/tmthrgd/go-memset) (GO) memset
 * [tmthrgd/go-sem](https://github.com/tmthrgd/go-sem) (GO) POSIX semaphore library for Golang
 * [tmthrgd/go-base64](https://github.com/tmthrgd/go-base64) (GO) base64 加速
+* [myfreeweb/go-base64-simd](https://github.com/myfreeweb/go-base64-simd) (GO) base64 加速
 * [tmthrgd/shm-go](https://github.com/tmthrgd/shm-go) (GO) A high-performance shared memory communications library for Go
 * [tmthrgd/go-bitwise](https://github.com/tmthrgd/go-bitwise) (GO) Efficient bitwise (xor/xnor/and/and-not/nand/or/nor/not) implementations for Golang.
 * [tmthrgd/go-hex](https://github.com/tmthrgd/go-hex) (GO) An efficient assembly hexadecimal implementation for Golang.
+* [minio/sha256-simd](https://github.com/minio/sha256-simd) (GO) sha256算法加速
+* [shawnsmithdev/zermelo](https://github.com/shawnsmithdev/zermelo) (GO) Radix sorting library
+* [cchamplin/gocrush](https://github.com/cchamplin/gocrush) Implementation of the CRUSH Algorithm in Go
 
 ##### go-encrypt
 * [templexxx/xor](https://github.com/templexxx/xor) XOR in Go, more than 10GB/s per core
@@ -338,12 +360,6 @@
 * [cznic/mathutil](https://github.com/cznic/mathutil) Utilities supplemental to the Go standard "rand" and "math" packages
 * [go-hep/fit](https://github.com/go-hep/fit) 数据拟合
 * [cpmech/gosl](https://github.com/cpmech/gosl) Go scientific library.
-
-#### go-image
-* [o1egl/govatar](https://github.com/o1egl/govatar) 头像生成库
-* [disintegration/imaging](https://github.com/disintegration/imaging) 图像处理库（旋转、填充、剪裁）
-* [h2non/bimg](https://github.com/h2non/bimg) 图像处理库
-* [muesli/smartcrop](https://github.com/muesli/smartcrop) smartcrop finds good image crops for arbitrary sizes
 
 #### go-log
 * [uber-go/zap](https://github.com/uber-go/zap) fast, structured, leveled logging
@@ -365,8 +381,9 @@
 * [ncw/gotemplate](https://github.com/ncw/gotemplate) go 数据结构代码生成器
 * [Kentik/patricia](https://github.com/Kentik/patricia) Garbage collector-sensitive patricia tree for IP/CIDR tagging
 * [efficient/go-cuckoo](https://github.com/efficient/go-cuckoo) A high-performance, memory-efficient concurrent hash table
-* [orcaman/concurrent-map](https://github.com/orcaman/concurrent-map) a thread-safe concurrent map for go
+* [orcaman/concurrent-map](https://github.com/orcaman/concurrent-map) (GO) 一个线程安全的支持并发的map，采用hash分片的方式
 * [cloudfoundry/go-diodes](https://github.com/cloudfoundry/go-diodes) (GO) 应用内部传递数据的ring buffers
+* [yourbasic/graph](https://github.com/yourbasic/graph) (GO) Golang library of basic graph algorithms
 
 #### go-network
 * [docker/libchan](https://github.com/docker/libchan) Like Go channels over the network
@@ -377,6 +394,7 @@
 * [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) golang p2p lib
 * [devsisters/goquic](https://github.com/devsisters/goquic) QUIC protocol support for Go (有一年没更新了)
 * [lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go) QUIC implementation in pure go
+* [ekr/minq](https://github.com/ekr/minq) (GO) QUIC协议实现
 * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) go mysql driver
 * [facebookgo/grace](https://github.com/facebookgo/grace) Graceful restart & zero downtime deploy for Go servers
 * [dghubble/gologin](https://github.com/dghubble/gologin) 提供多个知名网站的登录认证(OAuth1, OAuth2)
@@ -402,7 +420,6 @@
 * [kataras/iris](https://github.com/kataras/iris) Fast, cross-platform HTTP/2 Web Framework for Go
 * [zenazn/goji](https://github.com/zenazn/goji) Goji is a minimalistic web framework
 * [julienschmidt/go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) go-http-routing-benchmark
-* [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) A high performance HTTP request router
 * [PuerkitoBio/rehttp](https://github.com/PuerkitoBio/rehttp) 实现了`http.RoundTripper`,支持重试等
 * [google/go-querystring](https://github.com/google/go-querystring) golang lib url query 参数序列化库
 * [coreos/zetcd](https://github.com/coreos/zetcd) zookeeper to etcd 转换的proxy
@@ -430,16 +447,24 @@
 * [efficient/qlease](https://github.com/efficient/qlease) Go implementation of Quorum Read Leases
 * [uber/ringpop-go](https://github.com/uber/ringpop-go) Ringpop is a library that brings cooperation and coordination to distributed applications. It maintains a consistent hash ring on top of a membership protocol and provides request forwarding as a routing convenience. It can be used to shard your application in a way that's scalable and fault tolerant.
 * [uber/arachne](https://github.com/uber/arachne) Arachne is a packet loss detection system and an underperforming path detection system.
+* [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) A high performance HTTP request router
+* [buaazp/fasthttprouter](https://github.com/buaazp/fasthttprouter) 优化后的FAST HTTP路由器
+* [valyala/fasthttp](https://github.com/valyala/fasthttp) FAST HTTP框架
+* [valyala/quicktemplate](https://github.com/valyala/quicktemplate) FAST HTTP模板渲染器
+* [valyala/tcplisten](https://github.com/valyala/tcplisten) TCP LISTEN 支持SO\_REUSEPORT、TCP\_DEFER\_ACCEPT、TCP\_FASTOPEN
+* [grpc-ecosystem/go-grpc-middleware](https://github.com/grpc-ecosystem/go-grpc-middleware) GRPC中间件
+* [goiiot/libmqtt](https://github.com/goiiot/libmqtt) MQTT library in pure Go
+* [beevik/ntp](https://github.com/beevik/ntp) 一个简单的NTP客户端
 
 #### go-syscall
 * [songgao/water](https://github.com/songgao/water) TUN/TAP library written in native Go
 * [kavu/go\_reuseport](https://github.com/kavu/go_reuseport) golang reuseport 支持
 * [edsrzf/mmap-go](https://github.com/edsrzf/mmap-go) a portable mmap package for the golang
-* [fwessels/go-cv-simd](https://github.com/fwessels/go-cv-simd) low-level Go Assembly part of the go-cv wrapper around Simd
 * [hanwen/go-fuse](https://github.com/hanwen/go-fuse) FUSE bindings for Go
 * [jacobsa/fuse](https://github.com/jacobsa/fuse) A Go package for implementing a FUSE file system.
 * [traetox/goaio](https://github.com/traetox/goaio) Kernel based asynchronous IO library in pure golang
 * [tidwall/evio](https://github.com/tidwall/evio) Fast event-loop networking for Go
+* [cznic/memory](https://github.com/cznic/memory) 一个内存分配器，通过mmap来分配内存，可以绕过gc扫描
 
 #### go-driver
 * [upper/db](https://github.com/upper/db) 多种db driver
@@ -466,6 +491,7 @@
 * [grpc-ecosystem/go-grpc-prometheus](https://github.com/grpc-ecosystem/go-grpc-prometheus) go-grpc的prometheus插件
 * [XeLabs/go-mydumper](https://github.com/XeLabs/go-mydumper) A multi-threaded MySQL backup and restore tool
 * [mailru/go-clickhouse](https://github.com/mailru/go-clickhouse) Golang SQL database driver for Yandex ClickHouse
+* [araddon/qlbridge](https://github.com/araddon/qlbridge) (GO) SQL引擎、运行时
 
 #### go-service
 * [h2non/imaginary](https://github.com/h2non/imaginary) Fast HTTP microservice for high-level image processing
@@ -516,11 +542,14 @@
 * [uber/go-torch](https://github.com/uber/go-torch) 利用go-pprof生成火焰图
 * [bluele/factory-go](https://github.com/bluele/factory-go) 生成相关测试数据
 * [dvyukov/go-fuzz](https://github.com/dvyukov/go-fuzz) 解析函数的自动暴力测试工具
+* [google/gofuzz](https://github.com/google/gofuzz) GO 数据结构随机填充库
+* [brianvoe/gofakeit](https://github.com/brianvoe/gofakeit) GO 数据结构随机填充库
 * [emicklei/zazkia](https://github.com/emicklei/zazkia) 用于模拟网络异常的TCP代理
 * [vektra/mockery](https://github.com/vektra/mockery) go mock interface 生成工具
 * [mschoch/smat](https://github.com/mschoch/smat) State Machine Assisted Testing (use gofuzz)
 * [cznic/bench](https://github.com/cznic/bench) 另一个go benchmark 测试工具，可以使多个benchmark之间相互隔离
 * [anishathalye/porcupine](https://github.com/anishathalye/porcupine) A fast linearizability checker written in Go
+* [uber-go/goleak](https://github.com/uber-go/goleak) goroutine泄露检测工具
 
 #### go-cli
 * [dimiro1/banner](https://github.com/dimiro1/banner) 绘制命令行banner的库
@@ -607,6 +636,8 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [cznic/lldb](https://github.com/cznic/lldb) Package lldb implements a low level database engine
 * [Everlag/naive-columstore](https://github.com/Everlag/naive-columstore) A simple column store in golang
 * [prometheus/tsdb](https://github.com/prometheus/tsdb) the new Prometheus storage layer that will be used in its 2.0 release.
+* [couchbase/nitro](https://github.com/couchbase/nitro) (GO) A high performance in-memory index storage engine
+* [cayleygraph/cayley](https://github.com/cayleygraph/cayley) (GO) An open-source graph database
 
 #### go-other
 * [pubnative/mysqlproto-go](https://github.com/pubnative/mysqlproto-go) go实现的mysql协议层
@@ -614,10 +645,10 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [go-tomb/tomb](https://github.com/go-tomb/tomb) (GO) 启动/终止goroutine/task的简单实现
 * [cstockton/go-conv](https://github.com/cstockton/go-conv) 增强strconv
 * [huandu/xstrings](https://github.com/huandu/xstrings) 增强strings，有很多有用的方法
+* [fatih/camelcase](https://github.com/fatih/camelcase) 按驼峰命名方式切分字符串方法
 * [mwitkow/go-flagz](https://github.com/mwitkow/go-flagz) 增强的flag库，可以通过etcd等存储动态修改flag
 * [juju/errors](https://github.com/juju/errors) 增加errors，内置很多常见错误
 * [funny/slab](https://github.com/funny/slab) Slab allocation memory pools for Go
-* [google/goexpect](https://github.com/google/goexpect) golang 实现的shell expect命令
 * [dchest/captcha](https://github.com/dchest/captcha) 生成图片、声音类型的验证码
 * [libeclipse/memguard](https://github.com/libeclipse/memguard) 内存保护、防篡改
 * [davecgh/go-spew](https://github.com/davecgh/go-spew) 帮助打印各种数据结构，比`fmt.Printf("+v%")`可读性更好
@@ -626,7 +657,6 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [bradfitz/latlong](https://github.com/bradfitz/latlong) 根据地理位置信息转换对应时区
 * [axgle/mahonia](https://github.com/axgle/mahonia) 各种文字编码转换gbk/utf-8/big5
 * [jolestar/go-commons-pool](https://github.com/jolestar/go-commons-pool) 对象池
-* [cznic/memory](https://github.com/cznic/memory) 一个内存分配器，通过mmap来分配内存，可以绕过gc扫描
 * [segmentio/ksuid](https://github.com/segmentio/ksuid) KSUID生成库，另一种UUID
 * [lafikl/consistent](https://github.com/lafikl/consistent) 一致性hash
 * [russross/blackfriday](https://github.com/russross/blackfriday) Markdown 解析库
@@ -644,6 +674,9 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [asticode/go-astits](https://github.com/asticode/go-astits) MPEG数据包解析/解复用库
 * [hybridgroup/gocv](https://github.com/hybridgroup/gocv) The GoCV package provides Go language bindings for the OpenCV 3 computer vision library.
 * [XeLabs/go-jepsen](https://github.com/XeLabs/go-jepsen) 分布式mysql系统验证工具
+* [klauspost/pgzip](https://github.com/klauspost/pgzip) 并行gzip压缩
+* [klauspost/compress](https://github.com/klauspost/compress) 优化过的gzip/zip/zlib
+* [mojocn/base64Captcha](https://github.com/mojocn/base64Captcha) (GO) 验证码生成库
 
 ## Rust
 * [kud1ing/awesome-rust](https://github.com/kud1ing/awesome-rust)
@@ -668,6 +701,8 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [carllerche/mio](https://github.com/carllerche/mio) Metal IO library for Rust
 * [stepancheg/grpc-rust](https://github.com/stepancheg/grpc-rust) grpc for rust
 * [AgilData/gibbs-mysql-spyglass](https://github.com/AgilData/gibbs-mysql-spyglass) mysql 嗅探
+* [pingcap/raft-rs](https://github.com/pingcap/raft-rs) raft算法实现
+* [m-labs/smoltcp](https://github.com/m-labs/smoltcp) a standalone, event-driven TCP/IP stack that is designed for bare-metal, real-time systems
 
 #### rust-database
 * [spacejam/sled](https://github.com/spacejam/sled) A pre-alpha modern embedded database.
@@ -719,7 +754,6 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [ccsexyz/kcpraw](https://github.com/ccsexyz/kcpraw) a secure tunnel based on kcp and rawcon with N:M multiplexing
 * [discourse/discourse](https://github.com/discourse/discourse) 一个BBS实现
 * [gilbertchen/duplicacy](https://github.com/gilbertchen/duplicacy) A new generation cloud backup tool
-* [iammapping/wedding](https://github.com/iammapping/wedding) 婚礼大屏互动，微信请柬一站式解决方案
 
 ## network-infrastructure
 * [iqiyi/dpvs](https://github.com/iqiyi/dpvs) (C) DPVS is a high performance Layer-4 load balancer based on DPDK
@@ -729,6 +763,8 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [libmoon/libmoon](https://github.com/libmoon/libmoon) (C) 依赖DPDK and LuaJIT的高速数据包处理库
 * [tenta-browser/tenta-dns](https://github.com/tenta-browser/tenta-dns) (GO) A full-fledged DNS solution, including DNSSEC and DNS-over-TLS, it provides a DNS server suite comprising an authoritative DNS serve
 * [facebookincubator/dhcplb](https://github.com/facebookincubator/dhcplb) (GO) dhcplb is Facebook's implementation of a DHCP v4/v6 relayer with load balancing capabilities.
+* [jedisct1/dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) (GO) DNS代理，支持HTTPS-DNS、加密DNS等
+* [coredns/coredns](https://github.com/coredns/coredns) (GO) DNS服务，支持插件化，提供丰富的功能支持
 
 ## 业务编排/调度
 * [contribsys/faktory](https://github.com/contribsys/faktory)  It is the repository for background jobs within your application. Jobs have a type and a set of arguments and are placed into queues for workers to fetch and execute.
@@ -744,6 +780,7 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [snail007/goproxy](https://github.com/snail007/goproxy) (GO) 高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,域名黑白名单,跨平台,KCP协议支持,集成外部API。
 * [cyfdecyf/cow](https://github.com/cyfdecyf/cow) (GO) COW 是一个简化穿墙的 HTTP 代理服务器。它能自动检测被墙网站，仅对这些网站使用二级代理。
 * [JinnLynn/genpac](https://github.com/JinnLynn/genpac) 基于gfwlist的多种代理软件配置文件生成工具，支持自定义规则，目前可生成的格式有pac, dnsmasq, wingy。
+* [PurpleI2P/i2pd](https://github.com/PurpleI2P/i2pd) (CPP) 点对点加密匿名互联网络
 
 ## tool
 * [google/vim-codefmt](https://github.com/google/vim-codefmt) vim 脚本，提供多种源码格式化功能
@@ -789,9 +826,14 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [jarulraj/sqlcheck](https://github.com/jarulraj/sqlcheck) Automatically identify anti-patterns in SQL queries
 
 ## shell-tool
-* [junegunn/fzf](https://github.com/junegunn/fzf) fzf is a general-purpose command-line fuzzy finder.
-* [jhawthorn/fzy](https://github.com/jhawthorn/fzy) fzy is a fast, simple fuzzy text selector for the terminal
-* [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 快捷安装zsh
+* [junegunn/fzf](https://github.com/junegunn/fzf) (GO) fzf is a general-purpose command-line fuzzy finder.
+* [jhawthorn/fzy](https://github.com/jhawthorn/fzy) (C) fzy is a fast, simple fuzzy text selector for the terminal
+* [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (SHELL) 快捷安装zsh
+* [sharkdp/fd](https://github.com/sharkdp/fd) (RUST) 更先进了文件查找工具，可以代替find命令
+* [google/goexpect](https://github.com/google/goexpect) (GO) 实现的shell expect命令
+* [mlichvar/chrony](https://github.com/mlichvar/chrony) (C) NTP工具，提供一些时间平滑修正的功能
+* [xenolf/lego](https://github.com/xenolf/lego) (GO) Let's Encrypt客户端，用来生成HTTPS证书等
+* [crosbymichael/slex](https://github.com/crosbymichael/slex) (GO) 能够同时链接多个机器，发送命令的SSH客户端
 
 ## machine-learnning
 * [uber/horovod](https://github.com/uber/horovod) Distributed training framework for TensorFlow.
@@ -805,9 +847,10 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [WallarooLabs/wallaroo](https://github.com/WallarooLabs/wallaroo) Ultrafast and elastic data processing
 * [uber/storagetapper](https://github.com/uber/storagetapper) reads data from MySQL, transforms it into an Avro schema serialized format, and publishes these events to Kafka. 
 * [Meituan-Dianping/MyFlash](https://github.com/Meituan-Dianping/MyFlash) MyFlash是由美团点评公司技术工程部开发维护的一个回滚DML操作的工具。该工具通过解析v4版本的binlog，完成回滚操作。
+* [google/mtail](https://github.com/google/mtail) 解析应用日志导入时序数据库的工具
 
 ## 网络诊断/模拟工具
-* [google/stenographer](https://github.com/google/stenographer) 网络故障分析工具，将机器流量存储于硬盘(高写入性能)，提供检索查询
+* [google/stenographer](https://github.com/google/stenographer) (GO) 网络故障分析工具，将机器流量存储于硬盘(高写入性能)，提供检索查询
 * [git-hulk/tcpkit](https://github.com/git-hulk/tcpkit) tcp抓包分析工具
 * [https://github.com/mehrdadrad/mylg](https://github.com/mehrdadrad/mylg) 网络诊断工具
 * [emmericp/MoonGen](https://github.com/emmericp/MoonGen) 脚本化的高速数据报文生成工具，基于DPDK/LuaJIT
@@ -818,6 +861,7 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [uber/arachne](https://github.com/uber/arachne) Arachne is a packet loss detection system and an underperforming path detection system.
 * [EtixLabs/cameradar](https://github.com/EtixLabs/cameradar) 摄像头扫描工具 hack
 * [cloudflare/bpftools](https://github.com/cloudflare/bpftools) 根据给定规则生成bpf过滤规则、脚本，可以适配iptable
+* [openfip/redfi](https://github.com/openfip/redfi) (GO) Redis错误注入代理
 
 ## file
 * [watchman](https://github.com/facebook/watchman) 监控文件变化，可以根据条件触发动作
@@ -882,8 +926,9 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [PlatformLab/RAMCloud](https://github.com/PlatformLab/RAMCloud) RAMCloud is a new class of super-high-speed storage for large-scale datacenter applications.
 
 ## trace
-* [openzipkin/zipkin-go-opentracing](https://github.com/openzipkin/zipkin-go-opentracing) OpenTracing Tracer implementation for Zipkin in Go
+* [openzipkin/zipkin-go-opentracing](https://github.com/openzipkin/zipkin-go-opentracing) (GO) OpenTracing Tracer implementation for Zipkin in Go
 * [openzipkin/zipkin](https://github.com/openzipkin/zipkin) zipkin
+* [census-instrumentation/opencensus-go](https://github.com/census-instrumentation/opencensus-go) (GO) 分布式调用跟踪框架
 * [iovisor/bcc](https://github.com/iovisor/bcc) 大神的各种动态追踪脚本
 * [brendangregg/perf-tools](https://github.com/brendangregg/perf-tools) 大神的pref脚本集
 * [openresty/openresty-systemtap-toolkit](https://github.com/openresty/openresty-systemtap-toolkit) 动态追踪工具集,不仅仅能用于nginx等
@@ -893,12 +938,15 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [soarpenguin/systemtap-script](https://github.com/soarpenguin/systemtap-script) useful systemtap script
 * [Lowercases/tcprstat](https://github.com/Lowercases/tcprstat) TCP response time analysis tool
 * [KDAB/hotspot](https://github.com/KDAB/hotspot) The Linux perf GUI for performance analysis.
+* [brendangregg/HeatMap](https://github.com/brendangregg/HeatMap) 热力图生成工具
 * [brendangregg/systemtap-lwtools](https://github.com/brendangregg/systemtap-lwtools) SystemTap Lightweight Tools
+* [brendangregg/wss](https://github.com/brendangregg/wss) 查看进程实际使用的内存
 * [LucaCanali/Linux_tracing_scripts](https://github.com/LucaCanali/Linux_tracing_scripts) Scripts and tools for troubleshooting and performance analysis in Linux.
 * [youzan/systemtap-toolkit](https://github.com/youzan/systemtap-toolkit) YouZan systemtap toolkit to online analyze on production
 * [opentracing/opentracing-go](https://github.com/opentracing/opentracing-go) (go) OpenTracing API for Go
 * [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) (go) 分布式追踪监控系统
 * [Netflix/vizceral](https://github.com/Netflix/vizceral) 分布式调用链可视化UI
+* [Netflix/vector](https://github.com/Netflix/vector) 机器性能采集、导出agent
 
 ## file system
 * [ceph/ceph](https://github.com/ceph/ceph) 分布式文件系统
@@ -954,11 +1002,20 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [kubernetes/minikube](https://github.com/kubernetes/minikube) Run Kubernetes locally
 * [fnproject/fn](https://github.com/fnproject/fn) The container native, cloud agnostic serverless platform.
 * [u-root/u-root](https://github.com/u-root/u-root) 构建linux根文件系统工具
+* [brendangregg/msr-cloud-tools](https://github.com/brendangregg/msr-cloud-tools) 云服务器测试脚本
+* [google/metallb](https://github.com/google/metallb) (GO) 适配K8S的负载均衡器
+* [containerd/containerd](https://github.com/containerd/containerd) 一个开源容器运行时
 
 ## image
-* [google/guetzli](https://github.com/google/guetzli) JPEG 压缩库
-* [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) 面部识别
+* [google/guetzli](https://github.com/google/guetzli) (CPP) JPEG 压缩库
+* [ageitgey/face\_recognition](https://github.com/ageitgey/face_recognition) 面部识别
 * [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 动画人物识别
+* [o1egl/govatar](https://github.com/o1egl/govatar) (GO) 头像生成库
+* [disintegration/imaging](https://github.com/disintegration/imaging) (GO) 图像处理库（旋转、填充、剪裁）
+* [h2non/bimg](https://github.com/h2non/bimg) (GO) 图像处理库
+* [nfnt/resize](https://github.com/nfnt/resize) (GO) 图形裁剪库
+* [muesli/smartcrop](https://github.com/muesli/smartcrop) (GO) smartcrop finds good image crops for arbitrary sizes
+
 
 ## compression
 * [google/zopfli](https://github.com/google/zopfli)
@@ -971,6 +1028,14 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 
 ## message queue
 * [Tencent/phxqueue](https://github.com/Tencent/phxqueue) (C++) A high-availability, high-throughput and highly reliable distributed queue based on the Paxos algorithm.
+* [fireworq/fireworq](https://github.com/fireworq/fireworq) (GO) 轻量级高性能任务队列
+* [celrenheit/sandglass](https://github.com/celrenheit/sandglass) (GO) 分布式、持久化的消息队列
+
+## 其他
+* [mailgun/transactional-email-templates](https://github.com/mailgun/transactional-email-templates) (HTML) email html 模板
+* [leemunroe/responsive-html-email-template](https://github.com/leemunroe/responsive-html-email-template) (HTML) email html 模板
+* [iammapping/wedding](https://github.com/iammapping/wedding) 婚礼大屏互动，微信请柬一站式解决方案
+* [openssl/openssl](https://github.com/openssl/openssl) (C) openssl
 
 ## Book
 * [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
@@ -1012,6 +1077,7 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [nikitavoloboev/my-mac-os](https://github.com/nikitavoloboev/my-mac-os) a list of applications, alfred workflows and various tools that make my macOS experience even more amazing
 * [jolestar/kubernetes-complete-course](https://github.com/jolestar/kubernetes-complete-course) Kubernetes 完全教程
 * [apachecn/MachineLearning](https://github.com/apachecn/MachineLearning) 机器学习实战
+* [KeKe-Li/tutorial](https://github.com/KeKe-Li/tutorial) 机器学期算法
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) A collection of (mostly) technical things every software developer should know
 * [TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map) 程序员技能图谱
 
