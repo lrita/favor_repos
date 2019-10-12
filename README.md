@@ -695,7 +695,7 @@
 * [hacdias/filemanager](https://github.com/hacdias/filemanager) Web File Manager which can be used as a middleware or standalone app.
 * [h2non/filetype](https://github.com/h2non/filetype) 通过文件magic等检查文件的类型
 * [intel-go/cpuid](https://github.com/intel-go/cpuid) 获取CPU类型及支持的功能
-* [https://github.com/cznic/fileutil](https://github.com/cznic/fileutil) 一些常用文件操作（Fadvise、Falloc等）
+* [cznic/fileutil](https://github.com/cznic/fileutil) 一些常用文件操作（Fadvise、Falloc等）
 * [ftrvxmtrx/fd](https://github.com/ftrvxmtrx/fd) 进程间传递文件描述符
 * [google/nftables](https://github.com/google/nftables) 纯GO实现的Linux nftables操作库
 
@@ -1297,6 +1297,7 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [iammapping/wedding](https://github.com/iammapping/wedding) 婚礼大屏互动，微信请柬一站式解决方案
 * [openssl/openssl](https://github.com/openssl/openssl) (C) openssl
 * [google/boringssl](https://github.com/google/boringssl) boringssl
+* [n8n-io/n8n](https://github.com/n8n-io/n8n) 工作流自动化工具，支持50多种事件通知、可以自定义自动化流程，UI漂亮。
 
 ## Book
 * [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
