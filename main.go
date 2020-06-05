@@ -90,7 +90,7 @@ func main() {
 			sort.Slice(repoarray, func(i, j int) bool {
 				return repoarray[i].GetFullName() < repoarray[j].GetFullName()
 			})
-			fmt.Fprintf(&buff, "\n# %s\n", lang)
+			fmt.Fprintf(&buff, "\n## %s\n", lang)
 			for _, repo := range repoarray {
 				fmt.Fprintf(&buff, "* [%s](%s) %s\n",
 					repo.GetFullName(), repo.GetHTMLURL(), repo.GetDescription())
