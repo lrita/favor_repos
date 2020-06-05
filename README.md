@@ -1391,3 +1391,399 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [aisuhua/restful-api-design-references](https://github.com/aisuhua/restful-api-design-references) restful-api-design-references
 * [shieldfy/API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist) Checklist of the most important security countermeasures when designing, testing, and releasing your API
 * [oopsguy/microservices-from-design-to-deployment-chinese](https://github.com/oopsguy/microservices-from-design-to-deployment-chinese) 《微服务：从设计到部署》
+
+# 未分类
+
+# 
+* [DocsHome/microservices](https://github.com/DocsHome/microservices) Microservices from Design to Deployment 中文版 《微服务：从设计到部署》
+* [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) :books: Freely available programming books
+* [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) A topic-centric list of HQ open datasets.
+* [byoungd/English-level-up-tips-for-Chinese](https://github.com/byoungd/English-level-up-tips-for-Chinese) 可能是让你受益匪浅的英语进阶指南
+* [davideuler/architecture.of.internet-product](https://github.com/davideuler/architecture.of.internet-product) 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构，欢迎PR补充
+* [denji/awesome-http-benchmark](https://github.com/denji/awesome-http-benchmark) HTTP(S) benchmark tools, testing/debugging, & restAPI (RESTful)
+* [dgryski/go-perfbook](https://github.com/dgryski/go-perfbook) Thoughts on Go performance optimization
+* [dominikh/go-structlayout](https://github.com/dominikh/go-structlayout) 
+* [heidihoward/distributed-consensus-reading-list](https://github.com/heidihoward/distributed-consensus-reading-list) A long list of academic papers on the topic of distributed consensus
+* [hylinux1024/awesome-blockchain-articles](https://github.com/hylinux1024/awesome-blockchain-articles) A collection of awesome blockchain articles. Good learning resources about blockchain. 
+* [iMeiji/shadowsocks_install](https://github.com/iMeiji/shadowsocks_install) Auto install shadowsocks server，thanks 秋水逸冰
+* [invocable/awesome-bots](https://github.com/invocable/awesome-bots) The most awesome list about bots ⭐️🤖
+* [jeremycole/innodb_diagrams](https://github.com/jeremycole/innodb_diagrams) Diagrams for InnoDB data structures and behaviors
+* [lorin/resilience-engineering](https://github.com/lorin/resilience-engineering) Resilience engineering papers
+* [microsoft/api-guidelines](https://github.com/microsoft/api-guidelines) Microsoft REST API Guidelines
+* [rShetty/awesome-distributed-systems](https://github.com/rShetty/awesome-distributed-systems) Awesome list of distributed systems resources
+* [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06
+* [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) :whale: A curated list of Docker resources and projects
+* [wizicer/FinancialSupportForOpenSource](https://github.com/wizicer/FinancialSupportForOpenSource) 开源项目挣钱实用手册
+
+# Assembly
+* [anonymouse64/asm2go](https://github.com/anonymouse64/asm2go) Automatically generate golang assembly files from native assembly code
+* [intel/intel-ipsec-mb](https://github.com/intel/intel-ipsec-mb) Intel(R) Multi-Buffer Crypto for IPSec
+* [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) 
+
+# C
+* [JingchengLi/swapdb](https://github.com/JingchengLi/swapdb) https://github.com/JingchengLi/swapdb/wiki
+* [Pfzuo/Level-Hashing](https://github.com/Pfzuo/Level-Hashing) Write-Optimized and High-Performance Hashing Index Scheme for Persistent Memory (OSDI 2018, TOS 2019)
+* [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
+* [RediSearch/RediSearch](https://github.com/RediSearch/RediSearch) Fulltext Search and Secondary Index module for Redis
+* [SiriDB/siridb-server](https://github.com/SiriDB/siridb-server) SiriDB is a highly-scalable, robust and super fast time series database. Build from the ground up SiriDB uses a unique mechanism to operate without a global index and allows server resources to be added on the fly. SiriDB's unique query language includes dynamic grouping of time series for easy analysis over large amounts of time series.
+* [UncP/aili](https://github.com/UncP/aili) the fastest in-memory index in the East 东半球最快并发索引
+* [ansyun/dpdk-ans](https://github.com/ansyun/dpdk-ans) ANS(Accelerated Network Stack) on DPDK, DPDK native TCP/IP stack.
+* [ansyun/dpdk-nginx](https://github.com/ansyun/dpdk-nginx) Fork from official nginx-1.12.2, and run on the dpdk user space TCP/IP stack(ANS"accelerated network stack").
+* [ansyun/dpdk-redis](https://github.com/ansyun/dpdk-redis) Fork from official redis-3.0.5, and run on the dpdk user space TCP/IP stack(ANS).
+* [beanstalkd/beanstalkd](https://github.com/beanstalkd/beanstalkd) Beanstalk is a simple, fast work queue.
+* [canonical/dqlite](https://github.com/canonical/dqlite) Embeddable, replicated and fault tolerant SQL engine.
+* [efficient/rdma_bench](https://github.com/efficient/rdma_bench) A framework to understand RDMA
+* [erpc-io/eRPC](https://github.com/erpc-io/eRPC) Efficient RPCs for datacenter networks
+* [facebookarchive/libphenom](https://github.com/facebookarchive/libphenom) An eventing framework for building high performance and high scalability systems in C.
+* [fluent/fluent-bit](https://github.com/fluent/fluent-bit) Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX
+* [google/oss-fuzz](https://github.com/google/oss-fuzz) OSS-Fuzz - continuous fuzzing of open source software.
+* [hzarch/ngx_ssl_session_cache_module](https://github.com/hzarch/ngx_ssl_session_cache_module) Use redis or memcached to store ssl session to achieve cross-machine ssl session reuse
+* [intel/base64](https://github.com/intel/base64) 
+* [intel/ffmpeg_libyami](https://github.com/intel/ffmpeg_libyami) Enable FFmpeg to use Libyami/VAAPI for hardware offload of video transcode on the Intel GPU
+* [intel/isa-l](https://github.com/intel/isa-l) Intelligent Storage Acceleration Library
+* [intel/libva](https://github.com/intel/libva) Libva is an implementation for VA-API (Video Acceleration API)
+* [intel/numatop](https://github.com/intel/numatop) NumaTOP is an observation tool for runtime memory locality characterization and analysis of processes and threads running on a NUMA system.
+* [intel/soft-crc](https://github.com/intel/soft-crc) 
+* [libvips/libvips](https://github.com/libvips/libvips) A fast image processing library with low memory needs.
+* [madeye/tcp_china](https://github.com/madeye/tcp_china) TCP China congestion control algorithm
+* [microsoft/ProcDump-for-Linux](https://github.com/microsoft/ProcDump-for-Linux) A Linux version of the ProcDump Sysinternals tool
+* [microsoft/checkedc](https://github.com/microsoft/checkedc) Checked C is an extension to C that adds checking to detect or prevent common programming errors such as buffer overruns and out-of-bounds memory accesses.  This repo has a wiki for Checked C, sample code, the specification, and test code.
+* [microsoft/mimalloc](https://github.com/microsoft/mimalloc) mimalloc is a compact general purpose allocator with excellent performance.
+* [mjansson/rpmalloc](https://github.com/mjansson/rpmalloc) Public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C
+* [mtcp-stack/mtcp](https://github.com/mtcp-stack/mtcp) mTCP: A Highly Scalable User-level TCP Stack for Multicore Systems
+* [netdata/netdata](https://github.com/netdata/netdata) Real-time performance monitoring, done right! https://www.netdata.cloud
+* [wiredtiger/wiredtiger](https://github.com/wiredtiger/wiredtiger) WiredTiger's source tree
+* [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) The high-performance distributed SQL database for global, internet-scale apps.
+
+# C#
+* [microsoft/FASTER](https://github.com/microsoft/FASTER) Fast persistent recoverable log and key-value store, in C# and C++, from Microsoft Research.
+
+# C++
+* [AngoraFuzzer/Angora](https://github.com/AngoraFuzzer/Angora) Angora is a mutation-based fuzzer.  The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution. 
+* [CPPAlliance/NuDB](https://github.com/CPPAlliance/NuDB) NuDB: A fast key/value insert-only database for SSD drives in C++11
+* [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) ClickHouse is a free analytics DBMS for big data
+* [JohnSully/KeyDB](https://github.com/JohnSully/KeyDB) A Multithreaded Fork of Redis
+* [LoopPerfect/conduit](https://github.com/LoopPerfect/conduit) High Performance Streams Based on Coroutine TS ⚡
+* [Mellanox/libvma](https://github.com/Mellanox/libvma) Linux user space library for network socket acceleration based on RDMA compatible network adaptors
+* [NASA-SW-VnV/ikos](https://github.com/NASA-SW-VnV/ikos) Static analyzer for C/C++ based on the theory of Abstract Interpretation.
+* [PikaLabs/floyd](https://github.com/PikaLabs/floyd) A raft consensus implementation that is simply and understandable
+* [RafaGago/mini-async-log](https://github.com/RafaGago/mini-async-log) Non bloated asynchronous logger
+* [Tencent/phxpaxos](https://github.com/Tencent/phxpaxos) The Paxos library implemented in C++ that has been used in the WeChat production environment.
+* [Tencent/phxsql](https://github.com/Tencent/phxsql) A high availability MySQL cluster that guarantees data consistency between a master and slaves.
+* [Tencent/rapidjson](https://github.com/Tencent/rapidjson) A fast JSON parser/generator for C++ with both SAX/DOM style API
+* [apache/incubator-brpc](https://github.com/apache/incubator-brpc) Industrial-grade RPC framework used throughout Baidu, with 1,000,000+ instances and thousands kinds of services, called "baidu-rpc" inside Baidu.
+* [apache/incubator-doris](https://github.com/apache/incubator-doris) Apache Doris (Incubating)
+* [asmjit/asmjit](https://github.com/asmjit/asmjit) Machine code generation for C++
+* [baidu/braft](https://github.com/baidu/braft) An industrial-grade C++ implementation of RAFT consensus algorithm based on brpc,  widely used inside Baidu to build highly-available distributed systems.
+* [bombela/backward-cpp](https://github.com/bombela/backward-cpp) A beautiful stack trace pretty printer for C++
+* [boostorg/beast](https://github.com/boostorg/beast) HTTP and WebSocket built on Boost.Asio in C++11
+* [cachelot/cachelot](https://github.com/cachelot/cachelot) Cache library and distributed caching server. Memcached compatible.
+* [catchorg/Catch2](https://github.com/catchorg/Catch2) A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)
+* [cloudflarearchive/kyototycoon](https://github.com/cloudflarearchive/kyototycoon) 
+* [cmu-db/terrier](https://github.com/cmu-db/terrier) You know what this is...
+* [cwida/duckdb](https://github.com/cwida/duckdb) DuckDB is an embeddable SQL OLAP Database Management System
+* [devsisters/libquic](https://github.com/devsisters/libquic) QUIC, a multiplexed stream transport over UDP
+* [eBay/NuRaft](https://github.com/eBay/NuRaft) Raft core implementation as a replication library
+* [epfl-labos/TRIAD](https://github.com/epfl-labos/TRIAD) 
+* [expnkx/fast_io](https://github.com/expnkx/fast_io) fast_io is a C++ general-purpose exception-safe RAII I/O library based on C++ 20 Concepts. It is at least ten times faster than cstdio or iostream.
+* [facebook/watchman](https://github.com/facebook/watchman) Watches files and records, or triggers actions, when they change. 
+* [facebookarchive/beringei](https://github.com/facebookarchive/beringei) Beringei is a high performance, in-memory storage engine for time series data.
+* [facebookincubator/BOLT](https://github.com/facebookincubator/BOLT) Binary Optimization and Layout Tool - A linux command-line utility used for optimizing performance of binaries
+* [facebookincubator/SPARTA](https://github.com/facebookincubator/SPARTA) SPARTA is a library that provides the basic blocks for building high-performance static code analyzers based on Abstract Interpretation.
+* [fastio/1store](https://github.com/fastio/1store) NoSQL data store using the SEASTAR framework, compatible with Redis
+* [greg7mdp/parallel-hashmap](https://github.com/greg7mdp/parallel-hashmap) A family of header-only, very fast and memory-friendly hashmap and btree containers.
+* [hyrise/hyrise-v1](https://github.com/hyrise/hyrise-v1) HYRISE In-Memory Hybrid Storage Engine (archived, now developed in hyrise/hyrise repo)
+* [intel/hyperscan](https://github.com/intel/hyperscan) High-performance regular expression matching library
+* [intel/libstructure](https://github.com/intel/libstructure) 
+* [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) Prometheus Client Library for Modern C++
+* [mandreyel/mio](https://github.com/mandreyel/mio) Cross-platform C++11 header-only library for memory mapped file IO
+* [microsoft/GSL](https://github.com/microsoft/GSL) Guidelines Support Library
+* [microsoft/checkedc-clang](https://github.com/microsoft/checkedc-clang) This repo contains a version of clang that is being modified to support Checked C.   Checked C is an extension to C that adds checking to detect or prevent common programming errors such as out-of-bounds memory accesses.
+* [microsoft/rDSN](https://github.com/microsoft/rDSN) Robust Distributed System Nucleus (rDSN) is an open framework for quickly building and managing high performance and robust distributed systems.
+* [mlpack/ensmallen](https://github.com/mlpack/ensmallen) A header-only C++ library for numerical optimization --
+* [muellan/clipp](https://github.com/muellan/clipp) easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation
+* [omnisci/omniscidb](https://github.com/omnisci/omniscidb) OmniSciDB (formerly MapD Core)
+* [oneapi-src/oneTBB](https://github.com/oneapi-src/oneTBB) Official Threading Building Blocks (TBB) GitHub repository.  For Commercial Intel® TBB distribution, please click here: https://software.intel.com/en-us/tbb
+* [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) Protocol Buffers - Google's data interchange format
+* [qicosmos/raftcpp](https://github.com/qicosmos/raftcpp) modern c++ raft library
+* [tikv/rocksdb](https://github.com/tikv/rocksdb) A library that provides an embeddable, persistent key-value store for fast storage.
+* [typesense/typesense](https://github.com/typesense/typesense) Fast, typo tolerant search engine for building delightful search experiences.
+* [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) Simple, secure & standards compliant web server for the most demanding of applications
+* [ucbrise/confluo](https://github.com/ucbrise/confluo) Real-time Monitoring and Analysis of Data Streams
+* [vesoft-inc/nebula](https://github.com/vesoft-inc/nebula)   A distributed, fast open-source graph database featuring horizontal scalability and high availability
+* [vmware/chap](https://github.com/vmware/chap) chap analyzes un-instrumented core files for leaks, memory growth, and corruption
+* [wangyu-/tinyfecVPN](https://github.com/wangyu-/tinyfecVPN) A VPN Designed for Lossy Links, with Build-in Forward Error Correction(FEC) Support. Improves your Network Quality on a High-latency Lossy Link.
+* [xelabs/tokudb](https://github.com/xelabs/tokudb)  Next Generation DBMS TokuDB, based on Percona Server 5.7 with more features
+
+# CSS
+* [smartping/smartping](https://github.com/smartping/smartping) 综合性网络质量(PING)检测工具，支持正/反向PING绘图、互PING拓扑绘图与报警、全国PING延迟地图与在线检测工具等功能 
+
+# Go
+* [360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize) Golang library for reading and writing Microsoft Excel™ (XLSX) files.
+* [99designs/gqlgen](https://github.com/99designs/gqlgen) go generate based graphql server library
+* [AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy) Simple DNS proxy with DoH, DoT, and DNSCrypt support
+* [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.
+* [Konstantin8105/c4go](https://github.com/Konstantin8105/c4go) Transpiling C code to Go code
+* [MontFerret/ferret](https://github.com/MontFerret/ferret) Declarative web scraping
+* [RoaringBitmap/roaring](https://github.com/RoaringBitmap/roaring) Roaring bitmaps in Go (golang)
+* [SpectoLabs/hoverfly](https://github.com/SpectoLabs/hoverfly) Lightweight service virtualization/API simulation tool for developers and testers
+* [Ullaakut/cameradar](https://github.com/Ullaakut/cameradar) Cameradar hacks its way into RTSP videosurveillance cameras
+* [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) VictoriaMetrics - fast, cost-effective and scalable time series database
+* [VividCortex/mysqlerr](https://github.com/VividCortex/mysqlerr) MySQL Server Error Constants for Golang
+* [XiaoMi/Gaea](https://github.com/XiaoMi/Gaea) Gaea is a mysql proxy, it's developed by xiaomi b2c-dev team.
+* [XiaoMi/soar](https://github.com/XiaoMi/soar) SQL Optimizer And Rewriter
+* [aclements/go-misc](https://github.com/aclements/go-misc) Miscellaneous Go hacks
+* [acln0/zerocopy](https://github.com/acln0/zerocopy) Zero-copy I/O primitives and pipelines for Go. Linux-specific.
+* [agiledragon/gomonkey](https://github.com/agiledragon/gomonkey) gomonkey is a library to make monkey patching in unit tests easy
+* [akyoto/asm](https://github.com/akyoto/asm) :running: An x86-64 assembler written in Go.
+* [andrewarrow/paradise_ftp](https://github.com/andrewarrow/paradise_ftp) paradise_ftp is a powerful, 100% native (golang) ftp server that is production ready.
+* [antonmedv/expr](https://github.com/antonmedv/expr) Expression evaluation engine for Go: fast, non-Turing complete, dynamic typing, static typing
+* [avct/uasurfer](https://github.com/avct/uasurfer) Go package for fast and reliable abstraction of browser user agent strings.
+* [awnumar/memguard](https://github.com/awnumar/memguard) Secure software enclave for storage of sensitive information in memory.
+* [bluele/gcache](https://github.com/bluele/gcache) Cache library for golang. It supports expirable Cache, LFU, LRU and ARC.
+* [bytedance/go-tagexpr](https://github.com/bytedance/go-tagexpr) An interesting go struct tag expression syntax for field validation, etc.
+* [bytewatch/dolphinbeat](https://github.com/bytewatch/dolphinbeat) A server that pulls and parses MySQL binlog,  pushs change data into different sinks like Kafka.
+* [caddyserver/caddy](https://github.com/caddyserver/caddy) Fast, multi-platform web server with automatic HTTPS
+* [cdr/sshcode](https://github.com/cdr/sshcode) Run VS Code on any server over SSH.
+* [cespare/reflex](https://github.com/cespare/reflex) Run a command when files change
+* [cespare/ryu](https://github.com/cespare/ryu) A Go implementation of the Ryu algorithm for converting floating-point numbers to strings
+* [cespare/xxhash](https://github.com/cespare/xxhash) A Go implementation of the 64-bit xxHash algorithm (XXH64)
+* [chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade) An easy to use and powerful chaos engineering experiment toolkit.（阿里巴巴开源的一款简单易用、功能强大的混沌实验注入工具）
+* [chromedp/chromedp](https://github.com/chromedp/chromedp) A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.
+* [chubaofs/chubaofs](https://github.com/chubaofs/chubaofs) A distributed file system and object store for cloud native applications
+* [ciao-project/ciao](https://github.com/ciao-project/ciao) Ciao - Cloud Integrated Advanced Orchestrator
+* [cj1128/codeposter](https://github.com/cj1128/codeposter) 🎉代码明信片生成器，Generate a poster from your code!
+* [claudiodangelis/qrcp](https://github.com/claudiodangelis/qrcp) :zap: Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+* [client9/httpmime](https://github.com/client9/httpmime) Ensures basic mime types are installed in package mime
+* [cloudflare/tableflip](https://github.com/cloudflare/tableflip) Graceful process restarts in Go
+* [cockroachdb/errors](https://github.com/cockroachdb/errors) Go error library with error portability over the network
+* [cockroachdb/pebble](https://github.com/cockroachdb/pebble) RocksDB/LevelDB inspired key-value database in Go
+* [codesenberg/bombardier](https://github.com/codesenberg/bombardier) Fast cross-platform HTTP benchmarking tool written in Go
+* [common-nighthawk/go-figure](https://github.com/common-nighthawk/go-figure) Prints ASCII art from text.
+* [concourse/concourse](https://github.com/concourse/concourse) Concourse is a container-based continuous thing-doer written in Go and Elm.
+* [containous/yaegi](https://github.com/containous/yaegi) Yaegi is Another Elegant Go Interpreter
+* [couchbase/vellum](https://github.com/couchbase/vellum) A Go library implementing an FST (finite state transducer)
+* [creasty/defaults](https://github.com/creasty/defaults) Initialize structs with default values
+* [cri-o/cri-o](https://github.com/cri-o/cri-o) Open Container Initiative-based implementation of Kubernetes Container Runtime Interface
+* [cristaloleg/go-perftuner](https://github.com/cristaloleg/go-perftuner) Helper tool for manual Go code optimization.
+* [cube2222/octosql](https://github.com/cube2222/octosql) OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL.
+* [d5/tengo](https://github.com/d5/tengo) A fast script language for Go
+* [danderson/netboot](https://github.com/danderson/netboot) Packages and utilities for network booting
+* [dave/dst](https://github.com/dave/dst) Decorated Syntax Tree - manipulate Go source with perfect fidelity.
+* [dgraph-io/ristretto](https://github.com/dgraph-io/ristretto) A high performance memory-bound Go cache
+* [dgryski/go-tsz](https://github.com/dgryski/go-tsz) Time series compression algorithm from Facebook's Gorilla paper
+* [distributedio/titan](https://github.com/distributedio/titan) A Distributed Redis Protocol Compatible NoSQL Database
+* [distribworks/dkron](https://github.com/distribworks/dkron) Dkron - Distributed, fault tolerant job scheduling system https://dkron.io
+* [dnnrly/abbreviate](https://github.com/dnnrly/abbreviate) Shorten your strings using common abbreviations
+* [docker-archive/go-redis-server](https://github.com/docker-archive/go-redis-server) A Go implementation of the Redis server protocol
+* [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
+* [eBay/akutan](https://github.com/eBay/akutan) A distributed knowledge graph store
+* [eapache/channels](https://github.com/eapache/channels) Golang channel helpers and special types
+* [eatonphil/deferlint](https://github.com/eatonphil/deferlint) Linter for finding defer statements in Go loops
+* [egonelbre/gophers](https://github.com/egonelbre/gophers) Free gophers
+* [eleme/tedis](https://github.com/eleme/tedis) 基于TiKV的兼容Redis协议的强一致性NoSQL数据库
+* [etcd-io/bbolt](https://github.com/etcd-io/bbolt) An embedded key/value database for Go.
+* [etcd-io/gofail](https://github.com/etcd-io/gofail) failpoints for go
+* [etcd-io/zetcd](https://github.com/etcd-io/zetcd) Serve the Apache Zookeeper API but back it with an etcd cluster
+* [etix/stoppableListener](https://github.com/etix/stoppableListener) A Go helper package to gracefully stop a net/http server.
+* [facebookarchive/grace](https://github.com/facebookarchive/grace) Graceful restart & zero downtime deploy for Go servers.
+* [facebookarchive/httpcontrol](https://github.com/facebookarchive/httpcontrol) Package httpcontrol allows for HTTP transport level control around timeouts and retries.
+* [faiface/beep](https://github.com/faiface/beep) A little package that brings sound to any Go application. Suitable for playback and audio-processing.
+* [fatih/errwrap](https://github.com/fatih/errwrap) Go tool to wrap and fix errors with the new %w verb directive
+* [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 📂 Web File Browser which can be used as a middleware or standalone app.
+* [florianl/go-conntrack](https://github.com/florianl/go-conntrack) c-binding free API for golang to communicate with the conntrack subsystem
+* [florianl/go-tc](https://github.com/florianl/go-tc) traffic control in pure go - it allows to read and alter queues, filters and classes
+* [flyingmutant/rapid](https://github.com/flyingmutant/rapid) Rapid is a Go library for property-based testing
+* [fortio/fortio](https://github.com/fortio/fortio) Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats.
+* [fyne-io/fyne](https://github.com/fyne-io/fyne) Cross platform GUI in Go based on Material Design
+* [genjidb/genji](https://github.com/genjidb/genji) Document-oriented, embedded SQL database, works with Bolt, Badger and memory
+* [geziyor/geziyor](https://github.com/geziyor/geziyor) Geziyor, a fast web crawling & scraping framework for Go. Supports JS rendering.
+* [gijit/gi](https://github.com/gijit/gi) gijit is a just-in-time trace-compiled golang REPL. Standing on the shoulders of giants (GopherJS and LuaJIT).
+* [go-acme/lego](https://github.com/go-acme/lego) Let's Encrypt client and ACME library written in Go
+* [go-check/check](https://github.com/go-check/check) Rich testing for the Go language
+* [go-chi/chi](https://github.com/go-chi/chi) lightweight, idiomatic and composable router for building Go HTTP services
+* [go-delve/delve](https://github.com/go-delve/delve) Delve is a debugger for the Go programming language.
+* [go-echarts/go-echarts](https://github.com/go-echarts/go-echarts) 🎨 The adorable charts library for Golang
+* [go-internals-cn/go-internals](https://github.com/go-internals-cn/go-internals) Chinese Translation of https://github.com/teh-cmc/go-internals
+* [go-martini/martini](https://github.com/go-martini/martini) Classy web framework for Go
+* [go-ozzo/ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) A Go (golang) package that enhances the standard database/sql package by providing powerful data retrieval methods as well as DB-agnostic query building capabilities.
+* [go-playground/validator](https://github.com/go-playground/validator) :100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
+* [goharbor/harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content.
+* [gohugoio/hugo](https://github.com/gohugoio/hugo) The world’s fastest framework for building websites.
+* [gojuno/minimock](https://github.com/gojuno/minimock) Powerful mock generation tool for Go programming language
+* [golang/protobuf](https://github.com/golang/protobuf) Go support for Google's protocol buffers
+* [google/go-github](https://github.com/google/go-github) Go library for accessing the GitHub API
+* [google/renameio](https://github.com/google/renameio) Package renameio provides a way to atomically create or replace a file or symbolic link.
+* [google/rpmpack](https://github.com/google/rpmpack) rpmpack (tar2rpm) - package rpms in pure golang or cli
+* [gorilla/http](https://github.com/gorilla/http) An alternative HTTP client implementation for Go.
+* [gorilla/schema](https://github.com/gorilla/schema) Package gorilla/schema fills a struct with form values.
+* [grafana/loki](https://github.com/grafana/loki) Like Prometheus, but for logs.
+* [hashicorp/go-plugin](https://github.com/hashicorp/go-plugin) Golang plugin system over RPC.
+* [hashicorp/memberlist](https://github.com/hashicorp/memberlist) Golang package for gossip based membership and failure detection
+* [hashicorp/vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) Vault SSH Agent is used to enable one time keys and passwords
+* [henrylee2cn/erpc](https://github.com/henrylee2cn/erpc) An efficient, extensible and easy-to-use RPC framework.
+* [henrylee2cn/pholcus](https://github.com/henrylee2cn/pholcus) Pholcus is a distributed high-concurrency crawler software written in pure golang
+* [ian-kent/go-log](https://github.com/ian-kent/go-log) A logger, for Go
+* [jaypipes/ghw](https://github.com/jaypipes/ghw) Golang hardware discovery/inspection library
+* [jonhoo/drwmutex](https://github.com/jonhoo/drwmutex) Distributed RWMutex in Go
+* [kanmu/go-sqlfmt](https://github.com/kanmu/go-sqlfmt) A SQL formatter written in Go
+* [kavu/go_reuseport](https://github.com/kavu/go_reuseport) Brings SO_REUSEPORT into your Go server
+* [kentik/patricia](https://github.com/kentik/patricia) Garbage collector-sensitive patricia tree for IP/CIDR tagging
+* [kortschak/zalgo](https://github.com/kortschak/zalgo) Invoke the hive-mind
+* [libgoost/gweb](https://github.com/libgoost/gweb) Performance first Go stdlib-like collections
+* [libp2p/go-libp2p-peerstore](https://github.com/libp2p/go-libp2p-peerstore) an object to manage sets of peers, their addresses and other metadata
+* [lindb/lindb](https://github.com/lindb/lindb) LinDB is a scalable, high performance, high availability distributed time series database.
+* [lni/dragonboat](https://github.com/lni/dragonboat) A feature complete and high performance multi-group Raft library in Go.  
+* [lrita/cache](https://github.com/lrita/cache) cache object in goroutine locally
+* [lrita/errgroup](https://github.com/lrita/errgroup) advanced "golang.org/x/sync/errgroup"
+* [lrita/gosync](https://github.com/lrita/gosync) a TryLock implementation
+* [lubanstudio/luban](https://github.com/lubanstudio/luban) Luban is an on-demand building tasks dispatcher for Go.
+* [m3db/m3](https://github.com/m3db/m3) M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform
+* [mattermost/mattermost-server](https://github.com/mattermost/mattermost-server) Open source Slack-alternative in Golang and React - Mattermost
+* [mdlayher/netlink](https://github.com/mdlayher/netlink) Package netlink provides low-level access to Linux netlink sockets. MIT Licensed.
+* [medcl/gopa-abandoned](https://github.com/medcl/gopa-abandoned) GOPA, a spider written in Go.（NOTE: this project moved to https://github.com/infinitbyte/gopa ）
+* [mehrdadrad/mylg](https://github.com/mehrdadrad/mylg) Network Diagnostic Tool
+* [mfridman/tparse](https://github.com/mfridman/tparse) CLI tool for analyzing and summarizing go test output. Pipe friendly. CI/CD friendly.
+* [mgechev/revive](https://github.com/mgechev/revive) 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint.
+* [milosgajdos/tenus](https://github.com/milosgajdos/tenus) Linux networking in Go
+* [minio/sio](https://github.com/minio/sio) Go implementation of the Data At Rest Encryption (DARE) format.
+* [mitchellh/go-z3](https://github.com/mitchellh/go-z3) Go (golang) bindings to the Z3 SMT Solver
+* [mmcloughlin/avo](https://github.com/mmcloughlin/avo) Generate x86 Assembly with Go
+* [mmcloughlin/mathfmt](https://github.com/mmcloughlin/mathfmt) Document mathematical Go code beautifully
+* [mvdan/gofumpt](https://github.com/mvdan/gofumpt) A stricter gofmt, the way it should be pronounced
+* [nats-io/nats-server](https://github.com/nats-io/nats-server) High-Performance server for NATS, the cloud native messaging system.
+* [newtools/zsocket](https://github.com/newtools/zsocket) Zero-copy sockets for Linux in Golang
+* [nicksnyder/go-i18n](https://github.com/nicksnyder/go-i18n) Translate your Go program into multiple languages.
+* [notti/nocgo](https://github.com/notti/nocgo) dlopen in go without cgo
+* [nuclio/nuclio](https://github.com/nuclio/nuclio) High-Performance Serverless event and data processing platform
+* [ofabry/go-callvis](https://github.com/ofabry/go-callvis) Visualize call graph of a Go program using dot (Graphviz)
+* [oikomi/FishChatServer](https://github.com/oikomi/FishChatServer) 请移步第二版 https://github.com/oikomi/FishChatServer2
+* [openacid/slim](https://github.com/openacid/slim) Surprisingly space efficient trie in Golang(11 bits/key; 100 ns/get).
+* [openark/orchestrator](https://github.com/openark/orchestrator) MySQL replication topology management and HA
+* [openfaas/faas](https://github.com/openfaas/faas) OpenFaaS - Serverless Functions Made Simple
+* [openshift/osin](https://github.com/openshift/osin) Golang OAuth2 server library
+* [openzipkin-contrib/zipkin-go-opentracing](https://github.com/openzipkin-contrib/zipkin-go-opentracing) OpenTracing Bridge for Zipkin Go
+* [optiopay/kafka](https://github.com/optiopay/kafka) Go driver for Kafka
+* [ovh/cds](https://github.com/ovh/cds) Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform
+* [oxequa/realize](https://github.com/oxequa/realize) Realize is the #1 Golang Task Runner which enhance your workflow by automating the most common tasks and using the best performing Golang live reloading.
+* [perlin-network/noise](https://github.com/perlin-network/noise) A decentralized P2P networking stack written in Go.
+* [pingcap/failpoint](https://github.com/pingcap/failpoint) An implementation of failpoints for Golang.
+* [pingcap/go-ycsb](https://github.com/pingcap/go-ycsb) A Go port of Yahoo! Cloud Serving Benchmark (YCSB) 
+* [pingcap/parser](https://github.com/pingcap/parser) A MySQL Compatible SQL Parser
+* [pion/webrtc](https://github.com/pion/webrtc) Pure Go implementation of the WebRTC API
+* [profefe/profefe](https://github.com/profefe/profefe) Continuously collect profiling data for long-term postmortem analysis
+* [prologic/bitcask](https://github.com/prologic/bitcask) 🔑A high performance Key/Value store written in Go with a predictable read/write performance and high throughput. Uses a Bitcask on-disk layout (LSM+WAL) similar to Riak.
+* [prometheus-junkyard/tsdb](https://github.com/prometheus-junkyard/tsdb) The Prometheus time series database layer.
+* [purpleidea/mgmt](https://github.com/purpleidea/mgmt) Next generation distributed, event-driven, parallel config management!
+* [quasilyte/go-consistent](https://github.com/quasilyte/go-consistent) Source code analyzer that helps you to make your Go programs more consistent.
+* [quay/clair](https://github.com/quay/clair) Vulnerability Static Analysis for Containers
+* [radondb/radon](https://github.com/radondb/radon) RadonDB is an open source, cloud-native MySQL database for building global, scalable cloud services
+* [radondb/xenon](https://github.com/radondb/xenon) The MySQL Cluster Autopilot Management with GTID and Raft
+* [rclone/rclone](https://github.com/rclone/rclone) "rsync for cloud storage" - Google Drive, Amazon Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage, Yandex Files
+* [reborndb/qdb](https://github.com/reborndb/qdb) A fast, high availability, fully Redis compatible store.
+* [reborndb/reborn](https://github.com/reborndb/reborn) Distributed database fully compatible with redis protocol
+* [reviewdog/reviewdog](https://github.com/reviewdog/reviewdog) :dog: Automated code review tool integrated with any code analysis tools regardless of programming language
+* [sandglass/sandglass](https://github.com/sandglass/sandglass) Sandglass is a distributed, horizontally scalable, persistent, time sorted message queue.
+* [scylladb/go-set](https://github.com/scylladb/go-set) Type-safe, zero-allocation sets for Go
+* [securego/gosec](https://github.com/securego/gosec) Golang security checker
+* [smartystreets-archives/mafsa](https://github.com/smartystreets-archives/mafsa) Package mafsa implements Minimal Acyclic Finite State Automata in Go, essentially a high-speed, memory-efficient, Unicode-friendly set of strings.
+* [src-d/go-mysql-server](https://github.com/src-d/go-mysql-server) An extensible MySQL server implementation in Go.
+* [tecbot/gorocksdb](https://github.com/tecbot/gorocksdb) gorocksdb is a Go wrapper for RocksDB
+* [thanos-io/thanos](https://github.com/thanos-io/thanos) Highly available Prometheus setup with long term storage capabilities. CNCF Sandbox project.
+* [theupdateframework/notary](https://github.com/theupdateframework/notary) Notary is a project that allows anyone to have trust over arbitrary collections of data
+* [tidwall/chanx](https://github.com/tidwall/chanx) A simple interface wrapper around a Go channel.
+* [tidwall/spanmap](https://github.com/tidwall/spanmap) A fast collection type that uses uint64 for keys.
+* [tmthrgd/asm](https://github.com/tmthrgd/asm) Assembly generator for Golang in Golang. [Not stable].
+* [twmb/murmur3](https://github.com/twmb/murmur3) Fast, fully fledged murmur3 in Go.
+* [uber-archive/cherami-server](https://github.com/uber-archive/cherami-server) Distributed, scalable, durable, and highly available message queue system. This project is deprecated and not maintained.
+* [uber-archive/cpustat](https://github.com/uber-archive/cpustat) high frequency performance measurements for Linux. This project is deprecated and not maintained.
+* [uber-archive/go-torch](https://github.com/uber-archive/go-torch) Stochastic flame graph profiler for Go programs
+* [uber/aresdb](https://github.com/uber/aresdb) A GPU-powered real-time analytics storage and query engine. 
+* [uber/kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds
+* [unidoc/unioffice](https://github.com/unidoc/unioffice) Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents
+* [vishvananda/netlink](https://github.com/vishvananda/netlink) Simple netlink library for go.
+* [vitessio/vitess](https://github.com/vitessio/vitess) Vitess is a database clustering system for horizontal scaling of MySQL.
+* [volatiletech/authboss](https://github.com/volatiletech/authboss) The boss of http auth.
+* [walmartdigital/commit-message-formatter](https://github.com/walmartdigital/commit-message-formatter) CMF is an utility to standarize commit messages on projects
+* [wdamron/go-anchorhash](https://github.com/wdamron/go-anchorhash) A minimal-memory AnchorHash (consistent-hash) implementation for Go
+* [weppos/publicsuffix-go](https://github.com/weppos/publicsuffix-go) Domain name parser for Go based on the Public Suffix List.
+* [xanzy/go-gitlab](https://github.com/xanzy/go-gitlab) A GitLab API client enabling Go programs to interact with GitLab in a simple and uniform way
+* [xelabs/go-jepsen](https://github.com/xelabs/go-jepsen) go-jepsen is a toolset for distributed systems verification, includes SIV(Snapshot Isolation Verification) and etc...
+* [xelabs/go-mydumper](https://github.com/xelabs/go-mydumper) A multi-threaded MySQL backup and restore tool, faster than mysqldump
+* [xo/xo](https://github.com/xo/xo) Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server
+* [xujiajun/nutsdb](https://github.com/xujiajun/nutsdb) A simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as  list, set, sorted set.
+* [xxjwxc/gormt](https://github.com/xxjwxc/gormt) mysql database to golang struct
+* [zserge/lorca](https://github.com/zserge/lorca) Build cross-platform modern desktop apps in Go + HTML5
+
+# HTML
+* [rigtorp/awesome-modern-cpp](https://github.com/rigtorp/awesome-modern-cpp) A collection of resources on modern C++
+
+# Java
+* [killme2008/Metamorphosis](https://github.com/killme2008/Metamorphosis) A  high available,high performance distributed messaging system.
+* [pramalhe/ConcurrencyFreaks](https://github.com/pramalhe/ConcurrencyFreaks) 
+
+# JavaScript
+* [NARKOZ/hacker-scripts](https://github.com/NARKOZ/hacker-scripts) Based on a true story
+* [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers
+* [ecmadao/hacknical](https://github.com/ecmadao/hacknical) Hacknical, hacker & technical. A website for GitHub user to make a better resume.
+* [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)  Now we have become very big, Different from the original idea. Collect premium software in various categories.
+* [metallb/metallb](https://github.com/metallb/metallb) A network load-balancer implementation for Kubernetes using standard routing protocols
+* [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
+* [xiaohanyu/blog-html-to-pdf](https://github.com/xiaohanyu/blog-html-to-pdf) [Fun] A sample program to convert blog website to merged pdf.
+
+# Lua
+* [orlabs/orange](https://github.com/orlabs/orange) OpenResty/Nginx Gateway for API Monitoring and Management.
+* [zevv/lsofgraph](https://github.com/zevv/lsofgraph) lsof to graphviz
+
+# Perl
+* [intel/ioprof](https://github.com/intel/ioprof) The Linux I/O profiler (ioprof) is a tool that provides significant insight into I/O workloads while remaining easy to use.
+
+# Python
+* [Doist/bitmapist](https://github.com/Doist/bitmapist) Powerful analytics and cohort library using Redis bitmaps
+* [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) An open source python library for automated feature engineering
+* [XX-net/XX-Net](https://github.com/XX-net/XX-Net) a web proxy tool
+* [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) The world's simplest facial recognition api for Python and the command line
+* [apache/airflow](https://github.com/apache/airflow) Apache Airflow - A platform to programmatically author, schedule, and monitor workflows
+* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP
+* [facebook/prophet](https://github.com/facebook/prophet) Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
+* [facebookarchive/augmented-traffic-control](https://github.com/facebookarchive/augmented-traffic-control) Augmented Traffic Control: A tool to simulate network conditions
+* [gongjianhui/AppleDNS](https://github.com/gongjianhui/AppleDNS) Apple 网络服务加速配置。[已停止更新，请慎用。]
+* [google/clusterfuzz](https://github.com/google/clusterfuzz) Scalable fuzzing infrastructure.
+* [google/tangent](https://github.com/google/tangent) Source-to-Source Debuggable Derivatives in Pure Python
+* [horovod/horovod](https://github.com/horovod/horovod) Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.
+* [jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz) A fork and successor of the Sulley Fuzzing Framework
+* [public-apis/public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs for use in software and web development.
+* [qinxuye/cola](https://github.com/qinxuye/cola) A high-level distributed crawling framework.
+* [tpircher/pycrc](https://github.com/tpircher/pycrc) Free, easy to use Cyclic Redundancy Check (CRC) calculator and source code generator
+
+# Roff
+* [google/licensecheck](https://github.com/google/licensecheck) The licensecheck package classifies license files and heuristically determines how well they correspond to known open source licenses.
+
+# Rust
+* [BurntSushi/regex-automata](https://github.com/BurntSushi/regex-automata) A low level regular expression library that uses deterministic finite automata.
+* [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) Static analysis tools for all programming languages, build tools, config files and more.
+* [denisidoro/navi](https://github.com/denisidoro/navi) An interactive cheatsheet tool for the command-line and application launchers
+* [racer-rust/racer](https://github.com/racer-rust/racer) Rust Code Completion utility
+* [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) A curated list of Rust code and resources.
+* [smoltcp-rs/smoltcp](https://github.com/smoltcp-rs/smoltcp) a smol tcp/ip stack
+* [srijs/rust-crc32fast](https://github.com/srijs/rust-crc32fast) Fast, SIMD-accelerated CRC32 (IEEE) checksum computation in Rust
+* [tikv/raft-rs](https://github.com/tikv/raft-rs) Raft distributed consensus algorithm implemented in Rust.
+* [tikv/tikv](https://github.com/tikv/tikv) Distributed transactional key-value database, originally created to complement TiDB
+* [tokio-rs/mio](https://github.com/tokio-rs/mio) Metal IO library for Rust
+
+# Shell
+* [iamxy/tracing-tools](https://github.com/iamxy/tracing-tools) Useful tracing tools to find the performance problems
+* [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) 🙃 A delightful community-driven (with 1500+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+* [rcaloras/bash-preexec](https://github.com/rcaloras/bash-preexec) ⚡ preexec and precmd functions for Bash just like Zsh. 
+
+# Swift
+* [gbammc/Thor](https://github.com/gbammc/Thor) Switch the right application ASAP.
+
+# TypeScript
+* [antvis/G6](https://github.com/antvis/G6) ♾ A Graph Visualization Framework in JavaScript
+
+# Vim script
+* [dense-analysis/ale](https://github.com/dense-analysis/ale) Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support
+
+# Vue
+* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) :rocket:A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder
