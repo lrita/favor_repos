@@ -56,6 +56,7 @@
 * [aguinet/dragonffi](https://github.com/aguinet/dragonffi) C Foreign Function Interface and JIT using Clang/LLVM
 * [pmed/v8pp](https://github.com/pmed/v8pp) Bind C++ functions and classes into V8 JavaScript engine
 * [foonathan/type_safe](https://github.com/foonathan/type_safe) Zero overhead utilities for preventing bugs at compile time
+* [tpircher/pycrc](https://github.com/tpircher/pycrc) 可以生成多种优化的CRC算法的代码生成器
 
 #### c-algorithm
 * [ridiculousfish/libdivide](https://github.com/ridiculousfish/libdivide) (C) 高效除法库
@@ -1298,6 +1299,7 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [openssl/openssl](https://github.com/openssl/openssl) (C) openssl
 * [google/boringssl](https://github.com/google/boringssl) boringssl
 * [n8n-io/n8n](https://github.com/n8n-io/n8n) 工作流自动化工具，支持50多种事件通知、可以自定义自动化流程，UI漂亮。
+* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 一个用于快速上传图片并获取图片URL链接的工具，支持多种图床。
 
 ## Book
 * [gotgit/gotgit](https://github.com/gotgit/gotgit) git book
@@ -1754,7 +1756,6 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 * [jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz) A fork and successor of the Sulley Fuzzing Framework
 * [public-apis/public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs for use in software and web development.
 * [qinxuye/cola](https://github.com/qinxuye/cola) A high-level distributed crawling framework.
-* [tpircher/pycrc](https://github.com/tpircher/pycrc) Free, easy to use Cyclic Redundancy Check (CRC) calculator and source code generator
 
 ## Roff
 * [google/licensecheck](https://github.com/google/licensecheck) The licensecheck package classifies license files and heuristically determines how well they correspond to known open source licenses.
@@ -1784,6 +1785,3 @@ K-V数据库，支持MVCC、事务。事务Commit时直接将数据写入对应�
 
 ## Vim script
 * [dense-analysis/ale](https://github.com/dense-analysis/ale) Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support
-
-## Vue
-* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) :rocket:A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder
